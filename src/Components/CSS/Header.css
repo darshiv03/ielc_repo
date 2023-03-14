@@ -1,0 +1,54 @@
+.main_container {
+    background-image: url('school.jpeg');
+    background-size: cover;
+    background-position: center;
+    padding-top: 10%;
+    padding-right: 50%;
+    padding-left: 5%;
+    padding-bottom: 5%;
+}
+
+.buttons {
+    display: flex;
+    gap: 10px;
+}
+
+.button1 {
+    border-radius: 15px;
+    background-color: #cf5f2b;
+    border: none;
+    color: rgb(230, 227, 227);
+    padding: 10px 24px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+}
+
+.button2 {
+    border-radius: 15px;
+    border-radius: 15px;
+    background-color: rgb(230, 227, 227);
+    border-color: #cf5f2b;
+    color: #cf5f2b;
+    padding: 10px 24px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+}
+
+.other {
+    display: flex;
+    flex-direction: column;
+}
+
+.text1_button {
+    font-size: 100%;
+    text-align: center;
+}
+
+.text2_button {
+    font-size: 100%;
+    text-align: center;
+}
