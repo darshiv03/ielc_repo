@@ -1,6 +1,23 @@
 .dropdown {
   list-style: none;
+  text-decoration: none;
+  background-color: var(--primary);
+  display: none;
 }
+.show {
+  display: block;
+}
+li {
+  color: var(--creme-white);
+}
+a:link {
+  text-decoration: none;
+  color: var(--creme-white);
+}
+a:visited{
+  color: var(--creme-white);
+}
+
 .dropdown > li:hover {
   background-color: var(--primary-light);
 }
