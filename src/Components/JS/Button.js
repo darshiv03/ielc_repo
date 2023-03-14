@@ -1,5 +1,5 @@
 import React from 'react';
-import "../CSS/Buttons.css"
+import "../CSS/Button.css"
 
 export default function Buttons(props) {
 

@@ -67,9 +67,13 @@ p, .p-large {
 }
 
 button {
-    height: 50px;
+    height: auto;
     width: 342px;
     padding: 16px 24px;
     border-radius: 5px;
     text-align: center;
+    font-family: 'Manrope';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
 }

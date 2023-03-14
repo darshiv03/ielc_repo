@@ -6,22 +6,32 @@
     width: 342px;
 }
 
-.primary {
-    background-color: var(--primary);
+.grade5 {
+    background-color: var(--secondary-blue-light);
     color: var(--creme-white);
-    border-color:var(--primary);
-    border-style: solid;
+    border: none;
 }
 
-.secondary {
-    background-color: var(--primary-light);
+.grade4 {
+    background-color: var(--secondary-blue);
     color: var(--creme-white);
-    border-color:var(--primary);
-    border-style: solid;
+    border: none;
+}
+
+.grade3 {
+    background-color: var(--secondary-teal);
+    color: var(--creme-white);
+    border: none;
+}
+
+.grade2 {
+    background-color: var(--secondary-yellow);
+    color: var(--creme-white);
+    border: none;
 }
 
 .grade1 {
-    border: solid;
+    border-style: solid;
     border-color: var(--primary);
     color: var(--primary);
     background-color: var(--creme-white);
