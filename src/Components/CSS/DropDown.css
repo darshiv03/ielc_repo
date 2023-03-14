@@ -1,0 +1,6 @@
+.dropdown {
+  list-style: none;
+}
+.dropdown > li:hover {
+  background-color: var(--primary-light);
+}
