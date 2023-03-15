@@ -1,5 +1,8 @@
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 
+import './global.css';
+import './theme.css';
+
 import Navbar from "./Components/JS/Navbar";
 import Footer from "./Components/JS/Footer";
 
@@ -13,7 +16,7 @@ import Components from './Pages/JS/Components';
 
 function App() {
   return (
-    <div className="App">
+    <div className="App" theme="dark">
       <Navbar/>
       <Router>
         <Routes>
