@@ -24,7 +24,7 @@ export default function ContactUs() {
                 <label for="msg">Message</label>
                 <textarea type="text" id="msg" name="msg" placeholder="Type here"/>
                 
-                <input type="submit" value="Send Message"/>
+                <input type="submit" value="Send Message" />
                 
             </form>
         </div>
