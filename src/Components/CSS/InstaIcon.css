@@ -1,0 +1,4 @@
+.logo2 {
+    mask: url(/public/Instagram.svg) no-repeat center / contain;
+    -webkit-mask: url(/public/Instagram.svg) no-repeat center / contain;
+}
