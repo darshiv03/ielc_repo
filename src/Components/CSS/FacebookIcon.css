@@ -1,0 +1,4 @@
+.logo {
+    mask: url(/public/Facebook.svg) no-repeat center / contain;
+    -webkit-mask: url(/public/Facebook.svg) no-repeat center / contain;
+}
