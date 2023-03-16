@@ -12,6 +12,6 @@ export default function Program() {
     const data = programInfo[gradeLevel - 1];
 
     return (
-        <div>{JSON.stringify(data)}</div>
+        <img alt="Student sitting and making crafts"></img>
     )
 }

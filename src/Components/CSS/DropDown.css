@@ -7,8 +7,16 @@
 .show {
   display: block;
 }
+ul {
+  width: 100%;
+  padding: 0;
+  margin: 0;
+}
 li {
   color: var(--creme-white);
+  text-align: center;
+  padding-top: 1.5em;
+  padding-bottom: 1.5em;
 }
 a:link {
   text-decoration: none;
