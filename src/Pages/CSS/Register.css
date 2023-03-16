@@ -1,0 +1,50 @@
+.intro h3,h4,h5{color: red;}
+.regis-form{
+    background-color: blue;
+}
+.bolden,h4{font-weight: 900;}
+
+label{
+    color: red;
+}
+
+.text{
+    background-color: lightgray;
+    border-radius: 10%;
+    width: 100%;
+}
+
+
+.options-box{
+    background-color: lightgray;
+    border-radius: 3%;
+}
+.column1{
+    width: 50%;
+    float: left;
+}
+
+.group{
+    color: black;
+}
+
+.column1 label{
+    color: black;
+}
+.column2 label{
+    color: black;
+}
+
+textarea{
+    background-color: lightgray;
+}
+
+.sbm{
+    margin-top: 10%;
+    background-color: gray;
+    width:80%;
+    align-self: center;
+    border-radius: 30%;
+    padding-top: 2%;
+    padding-bottom: 2%;
+}
