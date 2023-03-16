@@ -10,11 +10,13 @@ import HomePage from "./Pages/JS/HomePage";
 import Register from "./Pages/JS/Register";
 import Volunteer from "./Pages/JS/Volunteer";
 import Components from './Pages/JS/Components';
+import DropDown from "./Components/JS/DropDown"
 
 function App() {
   return (
     <div className="App">
       <Navbar/>
+      <DropDown/>
       <Router>
         <Routes>
           <Route path = "/" element = {<HomePage/>}></Route>
@@ -26,7 +28,7 @@ function App() {
           <Route path = "/components" element = {<Components/>}></Route>
         </Routes>
       </Router>
-      <Footer/>
+      <Footer backgroundColor = "red"/>
     </div>
   );
 }
