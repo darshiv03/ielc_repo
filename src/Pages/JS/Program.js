@@ -13,6 +13,6 @@ export default function Program() {
     const data = programInfo[gradeLevel - 1];
 
     return (
-        <img src={student_img} alt="Student raising hand in classroom"/>
+        <img src={student_img} alt="Student raising hand in classroom" width="100%" height="auto"/>
     )
 }
