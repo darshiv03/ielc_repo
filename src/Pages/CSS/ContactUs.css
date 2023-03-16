@@ -1,5 +1,48 @@
-.test{
+.contact-us-container{
     width: 100%;
-
+    margin: 0 0;
+    padding-left: 24px;
+    padding-right: 24px;
+    padding-top: 24px;
+    padding-bottom: 50px;
 }
 
+.contact-header{
+    size: 40px;
+    color:#141514;
+    font-family: 'Manrope';
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 55px;
+}
+
+.based{
+    color: #828282;
+    font-style: normal;
+    size: 22px;
+    line-height: 32px;
+    font-family: 'Jost';
+    font-weight: 400;
+    font-size: 22px;
+}
+
+.get-in-touch{
+    /*width: 342px;*/
+    height: 84px;
+    font-family: 'Manrope';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 19px;
+    line-height: 30px;  
+    align-items: center;
+    color: #3B3D3B; 
+}
+
+.red-letters{
+    color: #E84D28;
+    height: 28px;
+    font-family: 'Manrope';
+    font-style: normal;
+    font-size: 18px;
+    line-height: 28px;
+}

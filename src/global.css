@@ -65,3 +65,54 @@ p, .p-large {
     font-size: 1rem;
     line-height: 1.4375rem;
 }
+
+input{
+    top: 10px;
+    margin-top: 10px;;
+    margin-bottom: 40px;
+    width: 100%;
+    padding: 12px 20px;
+    box-sizing: border-box;
+    font-size: 15px;
+    border-radius: 5px;
+    border: solid #AAAAAA 0.5px;
+
+}
+
+textarea{
+    top: 10px;
+    margin-bottom: 40px;
+    height: 150px;
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    font-size: 16px;
+    vertical-align: top;
+    resize: none;
+    font-family: 'Jost';
+    border-radius: 5px;
+    border: solid #AAAAAA 0.5px;
+}
+
+input[type="submit"]{
+    margin-top: 30px;
+    justify-content: center;
+    height: 65px;
+    width: 100%;
+    font-size: 24px;
+    font-family: 'Manrope';
+    background: #E84D28;
+    color: white;
+    border: none;
+    border-radius: 5px;
+
+}
+
+label{
+    padding-top: 100px;
+    font-weight: 500;
+    font-size: 22px;
+    line-height: 32px;
+    color: #3B3D3B;
+}
