@@ -1,6 +1,7 @@
 import React from 'react';
 import { useParams } from 'react-router-dom';
 import "../CSS/Program.css"
+import student_img from './student-program-img.jpeg'
 
 import programInfo from '../../data/programInfo'
 
@@ -12,6 +13,6 @@ export default function Program() {
     const data = programInfo[gradeLevel - 1];
 
     return (
-        <img alt="Student sitting and making crafts"></img>
+        <img src={student_img} alt="Student raising hand in classroom"/>
     )
 }

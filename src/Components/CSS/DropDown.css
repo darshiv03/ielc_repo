@@ -1,16 +1,27 @@
 .dropdown {
   list-style: none;
   text-decoration: none;
-  background-color: var(--primary);
   display: none;
 }
+.programs, .dropdown {
+  background-color: var(--primary);
+  padding-top: 1.5em;
+  padding-bottom: 1.5em;
+}
+
 .show {
   display: block;
+}
+.programs {
+  width: 100%;
+  border: none;
+  color: var(--creme-white);
+  margin: 0;
 }
 ul {
   width: 100%;
   padding: 0;
-  margin: 0;
+  margin-top: 0;
 }
 li {
   color: var(--creme-white);
@@ -18,11 +29,8 @@ li {
   padding-top: 1.5em;
   padding-bottom: 1.5em;
 }
-a:link {
+a:link, a:visited {
   text-decoration: none;
-  color: var(--creme-white);
-}
-a:visited{
   color: var(--creme-white);
 }
 

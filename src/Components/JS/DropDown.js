@@ -8,7 +8,7 @@ export default function DropDown() {
 
     return (
         <div>
-            <button className='program-tester'
+            <button className='programs'
           type="button" aria-haspopup="menu"
           aria-expanded={dropdown ? "true" : "false"}
           onClick={() => setDropdown((prev) => !prev)}
