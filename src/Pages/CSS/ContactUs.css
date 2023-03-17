@@ -1,48 +1,51 @@
 .contact-us-container{
-    width: 100%;
+    width: calc(100% - 48px);
     margin: 0 0;
-    padding-left: 24px;
-    padding-right: 24px;
+    margin-left: 24px;
+    margin-right: 24px;
     padding-top: 24px;
     padding-bottom: 50px;
-}
-
-.contact-header{
-    size: 40px;
-    color:#141514;
-    font-family: 'Manrope';
-    font-weight: 700;
-    font-size: 40px;
-    line-height: 55px;
+    flex: none;
+    flex-grow: 0;
 }
 
 .based{
-    color: #828282;
-    font-style: normal;
-    size: 22px;
-    line-height: 32px;
+    width: 342px;
+    height: 32px;
     font-family: 'Jost';
+    font-style: normal;
     font-weight: 400;
     font-size: 22px;
+    line-height: 32px;
+    align-items: center;
+    color: var(--gray500);
+    order: 1;
 }
 
 .get-in-touch{
-    /*width: 342px;*/
+    width: 342px;
     height: 84px;
     font-family: 'Manrope';
     font-style: normal;
-    font-weight: 400;
-    font-size: 19px;
-    line-height: 30px;  
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 28px;  
+    /*display: flex;*/
     align-items: center;
-    color: #3B3D3B; 
+    color: var(--gray600); 
+    order: 1;
 }
 
 .red-letters{
-    color: #E84D28;
+    width: 342px;
     height: 28px;
     font-family: 'Manrope';
     font-style: normal;
+    font-weight: 800;
     font-size: 18px;
     line-height: 28px;
+    display: flex;
+    align-items: center;
+    color: var(--primary);
+    order: 3;
 }
