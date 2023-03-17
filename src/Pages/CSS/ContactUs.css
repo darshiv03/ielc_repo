@@ -15,8 +15,8 @@
     font-family: 'Jost';
     font-style: normal;
     font-weight: 400;
-    font-size: 22px;
-    line-height: 32px;
+    font-size: 1.375rem;
+    line-height: 2rem;
     align-items: center;
     color: var(--gray500);
     order: 1;
@@ -28,8 +28,8 @@
     font-family: 'Manrope';
     font-style: normal;
     font-weight: 500;
-    font-size: 18px;
-    line-height: 28px;  
+    font-size: 1.125rem;
+    line-height: 1.75rem;  
     /*display: flex;*/
     align-items: center;
     color: var(--gray600); 
@@ -42,8 +42,8 @@
     font-family: 'Manrope';
     font-style: normal;
     font-weight: 800;
-    font-size: 18px;
-    line-height: 28px;
+    font-size: 1.125rem;
+    line-height: 1.75rem;
     display: flex;
     align-items: center;
     color: var(--primary);
