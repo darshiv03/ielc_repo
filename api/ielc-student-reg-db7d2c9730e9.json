@@ -1,0 +1,12 @@
+{
+  "type": "service_account",
+  "project_id": "ielc-student-reg",
+  "private_key_id": "db7d2c9730e9e6affebb342c8eced8a9f0aa1a5e",
+  "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvAIBADANBgkqhkiG9w0BAQEFAASCBKYwggSiAgEAAoIBAQD7kG8RobpxNHk+\nXsnZadKKnY/OjrNMNiAUEcRqlf1jmZ32ZYtwg4difGjMXDnYkp7cbyTIn5fyfmTw\nPRWhLXSbTplwptZT/WZf35CqzXGgXPiPgOxIdzQBeA8KpYedzeXWJ1J3mcmRLAQl\nAdMWOtU5uU8xty6uXd3kpmv7/DNBn4VglKpIQvfxi48K6NwiZTibH6dSU3HEQiuh\nCtjdz0bKNLF8SgmZLPb6UWxvpihTO7Wu1M9JgN+ACel5+rJkrg9L+lVcXJy0LA8F\nkuX5U8ARGjcgWA0KzfL4MBz0RipO4KIP3FilacL4qGGwBQi43MTxbvDwRnacgjxQ\ns42C8FrjAgMBAAECggEAD23K2h58tF+/BevDXoHGh3jlbopDBewV6JU0YkMjwN2V\nmhydQj/W6FvwA4SuiZFoi+WHMITVSWqmHzPn5TRIABSAha+92nXitwObuFYUX30E\nQ6zpEQK6nlJyPblsSWns7EcKIEq+2ZgFAw4LF8Rw+nLaoBZ3lvsr1k+8tL5BmIck\ngkaKBj4D5iE8qX9AZQZR6bupV7eUDBYriFioPnXbazLmYisQ7vKkOV7vpJZj9n1E\nhhG9N+/LyRamNhUXN/LRaS2rmR26Ix63Jejp9eb7k0n93DbmBPJUZQ6JAN+3ve2f\n1Si5hUnxdF9bVplk5f9SIUHhiz72k4AltumGJF7a/QKBgQD/omdcWhfMHdHyDeRC\nwSLRGpysBivntpI5AH0CALS4gDi/hIlP7nywqx9a1UWr/b09eeIvYaInh98YB8pr\nVEbHRHBzXsSTFdZa0m3PyELrc7wiG/AMwiIBh8I+dSLUp3BLrl/wVVzPi8jXxLDU\nFE5OENRDBB+/bTTsk296fbSu3QKBgQD77Io1VAmZC5qcFPBaT0kIL/CN+27azR/H\naaxnjwu5TsW9e7iAujla+c9A7D9lUV8R3j/kvi8tGg3iTxu384SWZk2ttxGi9fL3\n1H+Q3o9BcVqR1eV8hSeK8Cm3rwS5cjwYbLk4McS+ScKsiYz8KDh5tOFzerAa7MOZ\n3sBcZcE0vwKBgB9ZZj2QGt0ARy/c/kIld0SXc+EwvI+k9xegdLQbLA54Qv1Rnpk7\n0PTFd4nnH60w59UzLkbLPVyFsBk9U1iINEnZncS4OXkkM25d4fOaRoKjZc31CSI3\naH4xjOOl78iOZBoT31YU0dXt+YpkZ58KgnPWYoF5bv9FwDjG9+PYqKDNAoGAebJz\ntX1KQaeMYbfvwACrDAx0jXIXxBTxNBjFUyWUCUmXVoiswWq0iFFDIF6/5UbgwTX2\n8Z46FfSPHnMOtdcqhqkW/0L/fxSG8deyZB5PX9LNaMPGX1fHmWOZE4W1p4waocXr\n18ya+T2SkFzGQY2AcrLBclKjPe6AMxWbIUd6hOsCgYBwTjHAlRhgeX+qURO0xhMo\nGnEgjLxe0NPvb0jXTntDguvusfM93etQyi0+5dAw/bsULWa11/VzUGBj2xn722Pg\nr2/NPYSTZaJ1iHA5N64yjZZRoFN6y5igb8Aot51p0tpUyhLp2S0DSTwaH5B50TVC\n1DRGPGi44Fc7EQBd9ir3RQ==\n-----END PRIVATE KEY-----\n",
+  "client_email": "ielc-reg@ielc-student-reg.iam.gserviceaccount.com",
+  "client_id": "104004605093751088733",
+  "auth_uri": "https://accounts.google.com/o/oauth2/auth",
+  "token_uri": "https://oauth2.googleapis.com/token",
+  "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
+  "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/ielc-reg%40ielc-student-reg.iam.gserviceaccount.com"
+}
