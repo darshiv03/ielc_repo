@@ -3,7 +3,7 @@ import GoogleAuth from "google-auth-library";
 
 export default async function handler(req, res){
     const auth = new GoogleAuth({
-        keyFile: 'ielc-student-reg-db7d2c9730e9.json',
+        keyFile: 'api-cred.json',
         scopes: 'https://www.googleapis.com/auth/spreadsheets'
     })
 
