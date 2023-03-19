@@ -4,19 +4,35 @@ div p, h1, h2, h3 {  /* spacing for all left-aligned text */
 }
 
 .image-1 {
-    background-color: var(--gray500);
+    position: relative;
+    width: 100%;
 }
 
-.image-1 h1 {
+.image-1 img {
+    width: 100%;
+    height: auto;
+}
+
+.image-text {
     color: var(--creme-white);
+    position: absolute;
+    z-index: 1;
+    bottom: 20px;
+}
+
+.image-subtext {
+    color: var(--creme-white);
+    position: absolute;
+    z-index: 1;
+    bottom: 0px;
+    line-height: 1.2;
 }
 
 .image-1 p {
-    color: var(--creme-white);
+    border-top: 10rem;
 }
 
 .text {
-    margin-top: 3rem;
     margin-bottom: 3rem;
 }
 
@@ -37,6 +53,11 @@ div p, h1, h2, h3 {  /* spacing for all left-aligned text */
     padding-bottom: 3rem;
 }
 
+.image-2 img {
+    width: 100%;
+    height: auto;
+}
+
 .image-2 h3 {
     font-size: 30px;
 }
@@ -45,6 +66,41 @@ div p, h1, h2, h3 {  /* spacing for all left-aligned text */
     color: var(--gray500)
 }
 
-.button-text {
-    color: var(--creme-white)
+/* temporary button css until button component exists */
+.button-wrapper {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+button {
+    margin: 0.1rem;
+    color: white;
+    font-family: 'Jost';
+    padding: 16px 24px;
+    width: 80%;
+    border: none;
+    font-size: 24px;
+    border-radius: 8px;
+    background-color: var(--primary);
+}
+
+button:nth-child(1) {
+    background-color: var(--primary);
+}
+
+button:nth-child(2) {
+    background-color: var(--secondary-yellow);
+}
+
+button:nth-child(3) {
+    background-color: var(--secondary-teal);
+}
+
+button:nth-child(4) {
+    background-color: var(--secondary-blue);
+}
+
+button:nth-child(5) {
+    background-color: #8E41CA;
 }
