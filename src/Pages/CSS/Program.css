@@ -17,14 +17,14 @@ div p, h1, h2, h3 {  /* spacing for all left-aligned text */
     color: var(--creme-white);
     position: absolute;
     z-index: 1;
-    bottom: 20px;
+    bottom: 1.25rem;
 }
 
 .image-subtext {
     color: var(--creme-white);
     position: absolute;
     z-index: 1;
-    bottom: 0px;
+    bottom: 0;
     line-height: 1.2;
 }
 
@@ -42,7 +42,7 @@ div p, h1, h2, h3 {  /* spacing for all left-aligned text */
 
 .red {
     text-align: center;
-    font-size: 18px;
+    font-size: 1.125rem;
     color: var(--primary)
 }
 
@@ -59,7 +59,7 @@ div p, h1, h2, h3 {  /* spacing for all left-aligned text */
 }
 
 .image-2 h3 {
-    font-size: 30px;
+    font-size: 1.875rem;
 }
 
 .image-2 p{
@@ -77,11 +77,11 @@ button {
     margin: 0.1rem;
     color: white;
     font-family: 'Jost';
-    padding: 16px 24px;
+    padding: 1rem 1.5rem;
     width: 80%;
     border: none;
-    font-size: 24px;
-    border-radius: 8px;
+    font-size: 1.5rem;
+    border-radius: 0.5rem;
     background-color: var(--primary);
 }
 
