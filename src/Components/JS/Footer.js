@@ -9,9 +9,11 @@ import {Link} from 'react-router-dom';
 export default function Footer() {
 
     return (
-        <div className = {"bod"}>
+        <div class = "bod">
             
-                <LogoIcon size={50}/>
+            <div class ="logo">
+                {LogoIcon(50)}
+            </div>
                 <div className='learn-more-container'>
                     <p className = "a">Learn More</p>
                     <Link to="/about-us">About us</Link> 
@@ -30,9 +32,9 @@ export default function Footer() {
                 </div>
 
                 <div class ="icons">
-                    <a>{<MailIcon size={"2.3rem"} color={"white"}/>}</a>
-                    <a>{<InstaIcon size={"2.3rem"} color={"white"}/>}</a>
-                    <a>{<FacebookIcon size={"2.3rem"} color={"white"}/>}</a>
+                    <a>{MailIcon(50)}</a>
+                    <a>{InstaIcon(50)}</a>
+                    <a>{FacebookIcon(50)}</a>
                 </div> 
 
                 <div class = "footer">
