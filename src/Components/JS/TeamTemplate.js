@@ -1,9 +1,10 @@
 import React from 'react';
+import "../CSS/TeamTemplate.css";
 
-export default function PersonTemplate({img, name, position}) {
+export default function TeamTemplate({img, name, position}) {
 
     return (
-        <div>
+        <div className= "card">
             <img src = {img} alt="Logo" />
             <p className="p-medium">{name}</p>
             <p className="p-small-grey">{position}</p>

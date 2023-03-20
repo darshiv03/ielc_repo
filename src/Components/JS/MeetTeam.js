@@ -1,16 +1,40 @@
 import React from 'react';
 import "../CSS/MeetTeam.css";
-import PersonTemplate from './PersonTemplate';
+import TeamTemplate from './TeamTemplate';
 
 const data = [
     {
+        img: "/user.png",
         name: "John Smith", 
         position: "Mentor"
     },
     {
+        img: "/user.png",    
+        name: "Jack rabbit",
+        position: "Teacher"
+    }, 
+    {
+        img: "/user.png",    
+        name: "Jack rabbit",
+        position: "Teacher"
+    }, 
+    {
+        img: "/user.png",    
+        name: "Jack rabbit",
+        position: "Teacher"
+    },
+    {
+        img: "/user.png",    
+        name: "Jack rabbit",
+        position: "Teacher"
+    },
+    {
+        img: "/user.png",    
         name: "Jack rabbit",
         position: "Teacher"
     }
+
+
 ]
 export default function MeetTeam() {
 
@@ -21,7 +45,7 @@ export default function MeetTeam() {
                 <p>Lorem Ipsum</p>
             </div>
             {data.map((person,index)=>{
-                return (<PersonTemplate name={person.name} position={person.position} key={index}> </PersonTemplate>)
+                return (<TeamTemplate img = {person.img} name={person.name} position={person.position} key={index}> </TeamTemplate>)
             })}
             
 
