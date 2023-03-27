@@ -23,7 +23,7 @@ export default async function studentRegistration(req, res){
         const response = await googleSheet.spreadsheets.values.append({
             auth,
             spreadsheetId,
-            range: 'Sheet1!A2:F',
+            range: 'students!A:G',
             valueInputOption: 'USER_ENTERED',
             resource: {
                 values: user_data
