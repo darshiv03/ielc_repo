@@ -27,7 +27,7 @@ export default function Program() {
         <ul class="p-large">{goals}</ul>
         <h3>Meet {data.tutorName}</h3>
         <h4>{data.tutorSchool}</h4>
-        <p>{data.tutorDescr}</p>
+        <p class="p-medium">{data.tutorDescr}</p>
         <h2>{data.slogan}</h2>
         <button>{data.register_bttn}</button>
         <p>{data.deadline}</p>
