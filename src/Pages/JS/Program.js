@@ -25,6 +25,7 @@ export default function Program() {
         <p>{data.description}</p>
         <h2>{data.subHeading}</h2>
         <ul>{goals}</ul>
+        </h3>
 
         </div>
     )
