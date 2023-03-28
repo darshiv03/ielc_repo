@@ -29,7 +29,8 @@ export default function Program() {
         <h4>{data.tutorSchool}</h4>
         <p>{data.tutorDescr}</p>
         <h2>{data.slogan}</h2>
-        <btn>{data.}</btn>
+        <button>{data.register_bttn}</button>
+        <p>{data.deadline}</p>
 
         </div>
     )
