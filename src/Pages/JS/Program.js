@@ -21,7 +21,7 @@ export default function Program() {
         <div>
         <img src={student_img} alt="Student raising their hand in classroom" class="image"/>
         <h1>Grade {gradeLevel}</h1>
-        <h2>{data.mainHeading}</h2>
+        <h3>{data.mainHeading}</h3>
         <p>{data.description}</p>
         <h2>{data.subHeading}</h2>
         <ul>{goals}</ul>
