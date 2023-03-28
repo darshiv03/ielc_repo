@@ -18,7 +18,7 @@ const programInfo = [
 
         slogan: "Get Ahead, Stay Ahead.", 
 
-        registrationBttn: "Save your Free Spot", 
+        register_bttn: "Save your Free Spot", 
 
         deadline: "Deadline to Apply:\n June 4th at 11:59 pm PST"
     },
@@ -41,7 +41,7 @@ const programInfo = [
 
         slogan: "Get Ahead, Stay Ahead.", 
 
-        registrationBttn: "Save your Free Spot", 
+        register_bttn: "Save your Free Spot", 
 
         deadline: "Deadline to Apply:\n June 4th at 11:59 pm PST"
 
@@ -65,7 +65,7 @@ const programInfo = [
 
         slogan: "Get Ahead, Stay Ahead.", 
 
-        registrationBttn: "Save your Free Spot", 
+        register_bttn: "Save your Free Spot", 
 
         deadline: "Deadline to Apply:\n June 4th at 11:59 pm PST"
     },
@@ -88,7 +88,7 @@ const programInfo = [
 
         slogan: "Get Ahead, Stay Ahead.", 
 
-        registrationBttn: "Save your Free Spot", 
+        register_bttn: "Save your Free Spot", 
 
         deadline: "Deadline to Apply:\n June 4th at 11:59 pm PST"
     },
@@ -111,7 +111,7 @@ const programInfo = [
 
         slogan: "Get Ahead, Stay Ahead.", 
 
-        registrationBttn: "Save your Free Spot", 
+        register_bttn: "Save your Free Spot", 
 
         deadline: "Deadline to Apply:\n June 4th at 11:59 pm PST"
     }

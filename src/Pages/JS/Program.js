@@ -28,6 +28,8 @@ export default function Program() {
         <h3>Meet {data.tutorName}</h3>
         <h4>{data.tutorSchool}</h4>
         <p>{data.tutorDescr}</p>
+        <h2>{data.slogan}</h2>
+        <btn>{data.}</btn>
 
         </div>
     )
