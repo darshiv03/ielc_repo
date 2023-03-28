@@ -28,7 +28,7 @@ export default function Program() {
         <h3>Meet {data.tutorName}</h3>
         <h4>{data.tutorSchool}</h4>
         <p class="p-medium">{data.tutorDescr}</p>
-        <h2>{data.slogan}</h2>
+        <h3>{data.slogan}</h3>
         <button>{data.register_bttn}</button>
         <p>{data.deadline}</p>
 
