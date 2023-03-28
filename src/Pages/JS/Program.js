@@ -30,7 +30,7 @@ export default function Program() {
         <p class="p-medium">{data.tutorDescr}</p>
         <h3>{data.slogan}</h3>
         <button>{data.register_bttn}</button>
-        <p>{data.deadline}</p>
+        <p class="deadline">{data.deadline}</p>
 
         </div>
     )
