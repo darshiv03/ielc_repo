@@ -22,7 +22,7 @@ export default function Program() {
         <img src={student_img} alt="Student raising their hand in classroom" class="image"/>
         <h1>Grade {gradeLevel}</h1>
         <h3>{data.mainHeading}</h3>
-        <p class="p-small">{data.description}</p>
+        <p class="p-medium">{data.description}</p>
         <h2>{data.subHeading}</h2>
         <ul>{goals}</ul>
         <h3>Meet {data.tutorName}</h3>
