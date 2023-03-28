@@ -24,7 +24,7 @@ export default function Program() {
         <h3>{data.mainHeading}</h3>
         <p class="p-medium">{data.description}</p>
         <h2>{data.subHeading}</h2>
-        <ul>{goals}</ul>
+        <ul class="p-large">{goals}</ul>
         <h3>Meet {data.tutorName}</h3>
         <h4>{data.tutorSchool}</h4>
         <p>{data.tutorDescr}</p>
