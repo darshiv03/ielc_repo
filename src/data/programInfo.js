@@ -4,6 +4,8 @@ const programInfo = [
 
         mainHeading: "Designed to prepare & reinforce literacy concepts.",
 
+        description: "Our tutors prepare students from grades 1 to 5 with reading comprehension and grammar skills in accordance with the Common Core Standards in 60-minute sessions conducted over Zoom.",
+
         subHeading: "Learning Goals",
 
         learningGoals: ["Identify the main idea and central message", "Describe supporting details to the main idea", "Characterization: character description and personality", "Describe the setting of the story", "Learning how to compare and contrast ideas, characters and other parts of the story"],
@@ -24,6 +26,8 @@ const programInfo = [
         grade: 2,
         
         mainHeading: "Designed to prepare & reinforce literacy concepts.",
+
+        description: "Our tutors prepare students from grades 1 to 5 with reading comprehension and grammar skills in accordance with the Common Core Standards in 60-minute sessions conducted over Zoom.",
 
         subHeading: "Learning Goals",
 
@@ -47,6 +51,8 @@ const programInfo = [
 
         mainHeading: "Designed to prepare & reinforce literacy concepts.",
 
+        description: "Our tutors prepare students from grades 1 to 5 with reading comprehension and grammar skills in accordance with the Common Core Standards in 60-minute sessions conducted over Zoom.",
+
         subHeading: "Learning Goals",
 
         learningGoals: ["Identify the main idea and central message", "Describe supporting details to the main idea", "Characterization: character description and personality", "Describe the setting of the story", "Learning how to compare and contrast ideas, characters and other parts of the story"],
@@ -67,6 +73,8 @@ const programInfo = [
         grade: 4,
 
         mainHeading: "Designed to prepare & reinforce literacy concepts.",
+
+        description: "Our tutors prepare students from grades 1 to 5 with reading comprehension and grammar skills in accordance with the Common Core Standards in 60-minute sessions conducted over Zoom.",
 
         subHeading: "Learning Goals",
 
@@ -89,6 +97,8 @@ const programInfo = [
 
         mainHeading: "Designed to prepare & reinforce literacy concepts.",
 
+        description: "Our tutors prepare students from grades 1 to 5 with reading comprehension and grammar skills in accordance with the Common Core Standards in 60-minute sessions conducted over Zoom.",
+        
         subHeading: "Learning Goals",
 
         learningGoals: ["Identify the main idea and central message", "Describe supporting details to the main idea", "Characterization: character description and personality", "Describe the setting of the story", "Learning how to compare and contrast ideas, characters and other parts of the story"],

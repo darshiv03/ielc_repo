@@ -11,11 +11,21 @@ export default function Program() {
 
     const data = programInfo[gradeLevel - 1];
 
+    const goals = data.learningGoals.map((goal) => {
+        return (
+            <li>{goal}</li>
+        );
+    });
+
     return (
         <div>
         <img src={student_img} alt="Student raising their hand in classroom" class="image"/>
         <h1>Grade {gradeLevel}</h1>
-        <div>test {heading}</div>
+        <h2>{data.mainHeading}</h2>
+        <p>{data.description}</p>
+        <h2>{data.subHeading}</h2>
+        <ul>{goals}</ul>
+
         </div>
     )
 
