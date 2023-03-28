@@ -1,7 +1,7 @@
 import React from 'react';
 import { useParams } from 'react-router-dom';
 import "../CSS/Program.css"
-
+import student_img from './student-class.jpeg'
 import programInfo from '../../data/programInfo'
 
 
@@ -12,6 +12,11 @@ export default function Program() {
     const data = programInfo[gradeLevel - 1];
 
     return (
-        <div>{JSON.stringify(data)}</div>
+        <div>
+        <img src={student_img} alt="Student raising their hand in classroom" class="image"/>
+        <h1>Grade {gradeLevel}</h1>
+        <div>test {heading}</div>
+        </div>
     )
+
 }
