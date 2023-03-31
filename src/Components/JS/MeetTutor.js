@@ -35,7 +35,7 @@ export default function MeetTutor() {
 
     return (
         <div className="body">
-            < div className = "titleTutor">
+            < div className = "titleName">
                 <h2>Meet Our Tutors</h2>
             </div>
             {data.map((person,index)=>{

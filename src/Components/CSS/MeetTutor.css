@@ -8,23 +8,24 @@
     gap: 15px;
  
 }
-.titleTutor h2 {
+.titleName h2 {
     margin-top: 70px;
 }
 
-.title {
+.titleName {
     display:flex;
     flex-direction: column;
     flex-wrap: wrap;
     width: 100vw;
-    margin-left: 5px;
+    
 }   
 
-.title>*{
+.titleName>*{
     margin-top: 1px;
+    padding-left: 2%;
 }
 
-.title p {
+.titleName p {
     color: #828282;
 
 }
