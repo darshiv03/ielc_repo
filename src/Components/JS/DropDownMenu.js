@@ -1,9 +1,9 @@
 import React from 'react';
-import "../CSS/DropDown.css"
+import "../CSS/DropDownMenu.css"
 import programInfo from '../../data/programInfo';
 import { useState } from 'react';
 
-export default function DropDown() {
+export default function DropDownMenu() {
   const [dropdown, setDropdown] = useState(false);
 
     return (
@@ -15,7 +15,7 @@ export default function DropDown() {
           >
             Programs
           </button>
-            <ul className ={`dropdown ${dropdown ? "show" : ""}`}>
+            <ul className ={`dropdown-menu ${dropdown ? "show" : ""}`}>
                 {programInfo.map((programInfo, index) => (
                     <li key={index} className="menu-items">
                         <a href ={programInfo.url}>Grade {programInfo.grade}</a>

@@ -1,6 +1,6 @@
 import React from 'react';
 import "../CSS/Navbar.css"
-import DropDown from './DropDown';
+import DropDownMenu from './DropDownMenu';
 
 export default function NavBar() {
 

@@ -1,9 +1,9 @@
-.dropdown {
+.dropdown-menu {
   list-style: none;
   text-decoration: none;
   display: none;
 }
-.programs, .dropdown {
+.programs, .dropdown-menu {
   background-color: var(--primary);
   padding-top: 1.5em;
   padding-bottom: 1.5em;
@@ -34,6 +34,6 @@ a:link, a:visited {
   color: var(--creme-white);
 }
 
-.dropdown > li:hover {
+.dropdown-menu > li:hover {
   background-color: var(--primary-light);
 }
