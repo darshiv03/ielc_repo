@@ -29,7 +29,7 @@ export default function Program() {
                 <p class="p-medium">{data.description}</p>
                 <h2 class="goals-heading">{data.subHeading}</h2>
                 <ul class="p-large">{goals}</ul>
-                <div class="tutor-section">
+                <div class="tutor-header">
                     <div class="portrait"><img src={tutor_img} alt="Portrait of tutor Jane Rose"/></div>
                     <h3>Meet {data.tutorName}</h3>
                     <h4>{data.tutorSchool}</h4>
