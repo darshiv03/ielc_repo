@@ -2,6 +2,7 @@ import React from 'react';
 import { useParams } from 'react-router-dom';
 import "../CSS/Program.css"
 import student_img from './student-class.jpeg'
+import tutor_img from './tutor-portrait.jpg'
 import programInfo from '../../data/programInfo'
 
 
@@ -21,7 +22,6 @@ export default function Program() {
 
     return (
         <div>
-            <script src="https://kit.fontawesome.com/3e35c12d7b.js" crossorigin="anonymous"></script>
             <img src={student_img} alt="Student raising their hand in classroom" class="image"/>
             <div class="page-content">
                 <h1>Grade {gradeLevel}</h1>
@@ -29,8 +29,11 @@ export default function Program() {
                 <p class="p-medium">{data.description}</p>
                 <h2 class="goals-heading">{data.subHeading}</h2>
                 <ul class="p-large">{goals}</ul>
-                <h3>Meet {data.tutorName}</h3>
-                <h4>{data.tutorSchool}</h4>
+                <div class="tutor-section">
+                    <div class="portrait"><img src={tutor_img} alt="Portrait of tutor Jane Rose"/></div>
+                    <h3>Meet {data.tutorName}</h3>
+                    <h4>{data.tutorSchool}</h4>
+                </div>
                 <p class="p-medium">{data.tutorDescr}</p>
                 <h3>{data.slogan}</h3>
                 <button>{data.register_bttn}</button>

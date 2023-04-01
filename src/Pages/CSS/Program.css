@@ -11,3 +11,16 @@ p {
 .goals-heading {
   text-align: center;
 }
+.portrait {
+  display: inline-block;
+  position: relative;
+  width: 90px;
+  height: 90px;
+  overflow: hidden;
+  border-radius: 50%;
+}
+.portrait > img {
+  width: auto;
+  height: 100%;
+  margin-left: -20px;
+}
