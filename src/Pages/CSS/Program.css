@@ -5,15 +5,22 @@
 p {
   white-space: pre-wrap;
 }
-.program-header, .goals, .registration {
+.program-header, .goals, .registration, .tutor-section {
   padding: 0 1.25em;
 }
 .program-header > * {
   margin: 0.5em 0;
-
 }
 .goals-heading {
   text-align: center;
+}
+li {
+  /* supposed to replace bullets with icons */
+}
+.tutor-section {
+  background-color: rgb(152, 176, 199);
+  padding-top: 2em;
+  padding-bottom: 1.5em;
 }
 .tutor-header {
   display: flex;
