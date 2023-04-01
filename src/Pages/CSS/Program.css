@@ -5,8 +5,12 @@
 p {
   white-space: pre-wrap;
 }
-.page-content {
-  margin: 0 1.25em;
+.program-header, .goals, .registration {
+  padding: 0 1.25em;
+}
+.program-header > * {
+  margin: 0.5em 0;
+
 }
 .goals-heading {
   text-align: center;
