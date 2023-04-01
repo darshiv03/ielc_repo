@@ -5,3 +5,9 @@
 p {
   white-space: pre-wrap;
 }
+.page-content {
+  margin: 0 1.25em;
+}
+.goals-heading {
+  text-align: center;
+}

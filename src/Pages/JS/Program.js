@@ -5,6 +5,8 @@ import student_img from './student-class.jpeg'
 import programInfo from '../../data/programInfo'
 
 
+
+
 export default function Program() {
     // Get the gradeLevel param from the URL.
     let { gradeLevel } = useParams();
@@ -19,19 +21,21 @@ export default function Program() {
 
     return (
         <div>
-        <img src={student_img} alt="Student raising their hand in classroom" class="image"/>
-        <h1>Grade {gradeLevel}</h1>
-        <h3>{data.mainHeading}</h3>
-        <p class="p-medium">{data.description}</p>
-        <h2>{data.subHeading}</h2>
-        <ul class="p-large">{goals}</ul>
-        <h3>Meet {data.tutorName}</h3>
-        <h4>{data.tutorSchool}</h4>
-        <p class="p-medium">{data.tutorDescr}</p>
-        <h3>{data.slogan}</h3>
-        <button>{data.register_bttn}</button>
-        <p class="deadline">{data.deadline}</p>
-
+            <script src="https://kit.fontawesome.com/3e35c12d7b.js" crossorigin="anonymous"></script>
+            <img src={student_img} alt="Student raising their hand in classroom" class="image"/>
+            <div class="page-content">
+                <h1>Grade {gradeLevel}</h1>
+                <h3>{data.mainHeading}</h3>
+                <p class="p-medium">{data.description}</p>
+                <h2 class="goals-heading">{data.subHeading}</h2>
+                <ul class="p-large">{goals}</ul>
+                <h3>Meet {data.tutorName}</h3>
+                <h4>{data.tutorSchool}</h4>
+                <p class="p-medium">{data.tutorDescr}</p>
+                <h3>{data.slogan}</h3>
+                <button>{data.register_bttn}</button>
+                <p class="deadline">{data.deadline}</p>
+                </div>
         </div>
     )
 
