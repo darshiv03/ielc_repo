@@ -45,7 +45,7 @@ export default function Program() {
                 <button>{data.register_bttn}</button>
                 <p class="deadline">{data.deadline}</p>
             </section>
-\        </div>
+        </div>
     )
 
 }
