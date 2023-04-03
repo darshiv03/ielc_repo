@@ -53,6 +53,7 @@ h3 {
     line-height: 2.125rem;
 }
 
+
 p,
 .p-large {
     font-family: 'Jost', sans-serif;
@@ -70,7 +71,19 @@ p,
     line-height: 1.4375rem;
 }
 
-label {
+button {
+    height: auto;
+    width: 342px;
+    padding: 16px 24px;
+    border-radius: 5px;
+    text-align: center;
+    font-family: 'Manrope';
+    font-style: normal;
+    font-weight: 700;
+    font-size: auto;
+}
+
+  label {
     font-family: 'Jost';
     font-style: normal;
     font-weight: 500;
