@@ -8,7 +8,7 @@ import programInfo from '../../data/programInfo'
 
 
 
-export default function Program() {
+export default function Program(props) {
     // Get the gradeLevel param from the URL.
     let { gradeLevel } = useParams();
 
@@ -16,7 +16,7 @@ export default function Program() {
 
     const goals = data.learningGoals.map((goal) => {
         return (
-            <li>{goal}</li>
+            <li style={{color: props.color}}>{goal}</li>
         );
     });
 
@@ -24,15 +24,15 @@ export default function Program() {
         <div>
             <img src={student_img} alt="Student raising their hand in classroom" class="image"/>
             <section class="program-header">
-                <h1>Grade {gradeLevel}</h1>
+                <h1 style={{backgroundColor: props.color}}>Grade {gradeLevel}</h1>
                 <h3>{data.mainHeading}</h3>
                 <p class="p-medium">{data.description}</p>
             </section>
             <section class="goals">
-                <h2 class="goals-heading">{data.subHeading}</h2>
+                <h2 class="goals-heading" style={{color: props.color}}>{data.subHeading}</h2>
                 <ul class="p-large">{goals}</ul>
             </section>
-            <section class="tutor-section">
+            <section class="tutor-section" style={{backgroundColor: props.color}}>
                 <div class="tutor-header">
                     <div class="portrait"><img src={tutor_img} alt="Portrait of tutor Jane Rose"/></div>
                     <h3>Meet {data.tutorName}</h3>
@@ -42,7 +42,7 @@ export default function Program() {
             </section>
             <section class="registration">
                 <h3>{data.slogan}</h3>
-                <button>{data.register_bttn}</button>
+                <button style={{backgroundColor: props.color}}>{data.register_bttn}</button>
                 <p class="deadline">{data.deadline}</p>
             </section>
         </div>
