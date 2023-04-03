@@ -37,7 +37,7 @@ const programInfo = [
 
         tutorSchool: "University of California, Davis",
 
-        tutorDescr: "Jane is a junior majoring in Biology and minoring in Education. She has a passion for helping students achieve their academic goals and believes that every student has the potential to excel with the right support.\n Her teaching style is patient, supportive, and engaging. She uses a variety of teaching strategies and techniques to help students grasp difficult concepts, including visual aids, interactive activities, and real-life examples. She also encourages his students to ask questions and provides constructive feedback to help them improve their skills and knowledge.", 
+        tutorDescr: "Jane is a junior majoring in Biology and minoring in Education. She has a passion for helping students achieve their academic goals and believes that every student has the potential to excel with the right support.\n\nHer teaching style is patient, supportive, and engaging. She uses a variety of teaching strategies and techniques to help students grasp difficult concepts, including visual aids, interactive activities, and real-life examples. She also encourages his students to ask questions and provides constructive feedback to help them improve their skills and knowledge.", 
 
         slogan: "Get Ahead, Stay Ahead.", 
 
@@ -61,7 +61,7 @@ const programInfo = [
 
         tutorSchool: "University of California, Davis",
 
-        tutorDescr: "Jane is a junior majoring in Biology and minoring in Education. She has a passion for helping students achieve their academic goals and believes that every student has the potential to excel with the right support.\n Her teaching style is patient, supportive, and engaging. She uses a variety of teaching strategies and techniques to help students grasp difficult concepts, including visual aids, interactive activities, and real-life examples. She also encourages his students to ask questions and provides constructive feedback to help them improve their skills and knowledge.", 
+        tutorDescr: "Jane is a junior majoring in Biology and minoring in Education. She has a passion for helping students achieve their academic goals and believes that every student has the potential to excel with the right support.\n\nHer teaching style is patient, supportive, and engaging. She uses a variety of teaching strategies and techniques to help students grasp difficult concepts, including visual aids, interactive activities, and real-life examples. She also encourages his students to ask questions and provides constructive feedback to help them improve their skills and knowledge.", 
 
         slogan: "Get Ahead, Stay Ahead.", 
 
@@ -84,7 +84,7 @@ const programInfo = [
 
         tutorSchool: "University of California, Davis",
 
-        tutorDescr: "Jane is a junior majoring in Biology and minoring in Education. She has a passion for helping students achieve their academic goals and believes that every student has the potential to excel with the right support.\n Her teaching style is patient, supportive, and engaging. She uses a variety of teaching strategies and techniques to help students grasp difficult concepts, including visual aids, interactive activities, and real-life examples. She also encourages his students to ask questions and provides constructive feedback to help them improve their skills and knowledge.", 
+        tutorDescr: "Jane is a junior majoring in Biology and minoring in Education. She has a passion for helping students achieve their academic goals and believes that every student has the potential to excel with the right support.\n\nHer teaching style is patient, supportive, and engaging. She uses a variety of teaching strategies and techniques to help students grasp difficult concepts, including visual aids, interactive activities, and real-life examples. She also encourages his students to ask questions and provides constructive feedback to help them improve their skills and knowledge.", 
 
         slogan: "Get Ahead, Stay Ahead.", 
 
