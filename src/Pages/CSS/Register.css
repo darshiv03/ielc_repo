@@ -1,50 +1,100 @@
-.intro h3,h4,h5{color: red;}
-.regis-form{
-    background-color: blue;
-}
-.bolden,h4{font-weight: 900;}
+.intro h3{
+    color: var(--primary);
+    font-size: 30px;
+    line-height: 44px;
+    font-weight: 700;
+    }
 
-label{
-    color: red;
+    .duration{
+        font-weight: 700;
+    }
+    
+    .intro p{
+        font-size: 18px;
+        line-height: 28px;
+        font-weight: 500;
+        color: var(--dark)
+    }
+
+h4{
+    font-weight: 900;
 }
 
-.text{
-    background-color: lightgray;
-    border-radius: 10%;
-    width: 100%;
+.bolden{
+    color: var(--primary);
+    font-weight: 800; 
+    line-height: 28px;
+    font-size: 18px;           
 }
 
+.form-1 label{
+    font-weight: 500;
+    font-size: 22px;
+    line-height: 32px;
+}
 
-.options-box{
-    background-color: lightgray;
-    border-radius: 3%;
-}
-.column1{
-    width: 50%;
-    float: left;
-}
 
 .group{
-    color: black;
-}
-
-.column1 label{
-    color: black;
-}
-.column2 label{
-    color: black;
+    color: var(--gray500);
+    font-size: 18px;
+    line-height: 27px;
+    font-weight: 400;
 }
 
 textarea{
-    background-color: lightgray;
+    color: var(--gray-200);
+    font-size: 22px;
+    line-height: 32px;
+    font-weight: 400;
+    padding: 12px 20px;
+    box-sizing: border-box;
+    border: 2px solid;
+    border-radius: 4px;
 }
+    
 
 .sbm{
-    margin-top: 10%;
-    background-color: gray;
-    width:80%;
-    align-self: center;
-    border-radius: 30%;
-    padding-top: 2%;
-    padding-bottom: 2%;
+    padding: 16px, 24px, 16px, 24px;
+    border-radius: 8px;
+    font-size: 24px;
+    line-height: 32px;
+    margin-top: 16px;
+    background-color: var(--primary);
+    color: #ffffff;
+    border-color: var(--primary);
+}
+
+.asterix{
+    color:var(--primary);
+}
+
+.label-color{
+    color: var(--dark);
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 32px;
+}
+
+.grade-level{
+    font-weight: 500;
+    font-size: 22px;
+    line-height: 33px;
+}
+
+.form-1 input[type='text']{
+    color: var(--gray-200);
+    font-size: 22px;
+    line-height: 32px;
+    font-weight: 400;
+    padding: 12px 20px;
+    box-sizing: border-box;
+    border: 2px solid;
+    border-radius: 4px;
+}
+
+.deadline{
+    color: var(--gray500);
+    font-size: 18px;
+    font-weight: 700px;
+    line-height: 25px;
 }

@@ -7,55 +7,51 @@ export default function Register() {
         <div>
             <div class="container">
                 <div class="intro">
-                    <h3 align="center">Register A Student</h3>
-                    <h5 align="center">Fill out the form below to register a student. Once the student is registered, we will be sending our schedule to parents. <br></br>Our program will take place from june 19th to August 7th, and include 2 classes per week excluding holidays.</h5>
-                    <b><h5 class="bolden" align="center">* = required</h5></b>
+                    <h3>Register A Student</h3>
+                    <p>Fill out the form below to register a student. Once the student is registered, we will be sending our schedule to parents. <br></br>
+                    Our program will take place from <span class="duration">June 19th to August 7th</span>, and include 2 classes per week excluding holidays.</p>
+                    <b><h5 class="bolden">* = required</h5></b>
                 </div>
                 <div class="form-1">
-                    <label>Student Name *</label><br></br>
-                    <input  class="text" type="text"></input><br></br>
-                    <label>Parent Name *</label><br></br>
-                    <input class="text" type="text"></input><br></br>
-                    <label>Parent Email *</label><br></br>
-                    <input class="text" type="text"></input><br></br>
-                    <label>Parent Phone Number *</label><br></br>
-                    <input class="text" type="text"></input><br></br>
-                    <h4 class="grade-level">Which grade level will the student be going to in the following school year?*</h4><br></br>
+                    <label>Student Name <span class="asterix">*</span></label><br></br>
+                    <input  class="text" type="text" value="Type here"></input><br></br><br></br>
+                    <label>Parent Name <span class="asterix">*</span></label><br></br>
+                    <input class="text" type="text" value="Type here"></input><br></br><br></br>
+                    <label>Parent email <span class="asterix">*</span></label><br></br>
+                    <input class="text" type="text" value="Type here"></input><br></br><br></br>
+                    <label>Parent Phone Number <span class="asterix">*</span></label><br></br>
+                    <input class="text" type="text" value="Type here"></input><br></br>
+                    
+                    <h4 class="grade-level">Which grade level will the student be going to in the following school year?<span class="asterix">*</span></h4>
                     <input type="radio"></input>
-                    <label>Grade 1</label><br></br>
+                    <label class="label-color">Grade 1</label><br></br>
                     <input type="radio"></input>
-                    <label>Grade 2</label><br></br>
+                    <label class="label-color">Grade 2</label><br></br>
                     <input type="radio"></input>
-                    <label>Grade 3</label><br></br>
+                    <label class="label-color">Grade 3</label><br></br>
                     <input type="radio"></input>
-                    <label>Grade 4</label><br></br>
+                    <label class="label-color">Grade 4</label><br></br>
                     <input type="radio"></input>
-                    <label>Grade 5</label><br></br>
-                    <input type="radio"></input>
-                    <label>Grade 6</label><br></br>
-                    <h4 class="group">Which group would the student like to join? *</h4>
-                    <h5 class="group">Students can join the lessons for any grade level. They can relearn concepts from the grade they just completed. They can get a head start by joining the next grade level group.</h5>
-                    <div class="options-box">
-                        <div class="column1">
+                    <label class="label-color">Grade 5</label><br></br>
+
+                    <h4 class="grade-level">Which group would the student like to join? <span class="asterix">*</span></h4>
+                    <h5 class="group">Students can join the lessons for any grade level. They can review concepts from the grade they just completed or they can get a head start by joining the next grade level group.</h5>
                             <input type="radio"></input>
-                            <label>Grade 1</label><br></br>
+                            <label class="label-color">Grade 1</label><br></br>
                             <input type="radio"></input>
-                            <label>Grade 2</label><br></br>
+                            <label class="label-color">Grade 2</label><br></br>
                             <input type="radio"></input>
-                            <label>Grade 3</label>
-                        </div>
-                        <div class="column2">
+                            <label class="label-color">Grade 3</label><br></br>
                             <input type="radio"></input>
-                            <label>Grade 4</label><br></br>
+                            <label class="label-color">Grade 4</label><br></br>
                             <input type="radio"></input>
-                            <label>Grade 5</label><br></br>
+                            <label class="label-color">Grade 5</label><br></br>
                             <br></br>
-                        </div>
-                    </div>
-                    </div>
-                    <h4 class="group">Do you have any additional comments or questions?<br></br></h4>
-                    <textarea id="txtArea" rows="7" cols="35"></textarea>
-                    <input type="submit" class="sbm" value="Submit Registration"></input>
+                </div>
+                <h4 class="grade-level">Do you have any additional comments or questions?<br></br></h4>
+                <textarea id="txtArea" rows="7" cols="35" value="Type here"></textarea>
+                <input type="submit" class="sbm" value="Submit Registration"></input>
+                <p align="center" class="deadline">Deadline to Apply:<br></br>April 2nd at 11:50 pm PST</p>
             </div>
         </div>
     )
