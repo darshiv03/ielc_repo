@@ -11,12 +11,12 @@ import Volunteer from "./Pages/JS/Volunteer";
 import OurSummerProgram from './Pages/JS/OurSummerProgram';
 import Tutor from './Pages/JS/Tutor';
 import HomePage from './Pages/JS/HomePage';
+import Components from './Pages/JS/Components';
 
 function App() {
   return (
     <div className="App">
       <Navbar/>
-      <Router>
         <Routes>
           <Route path = "/" element = {<HomePage/>}></Route>
           <Route path = "/about-us" element = {<AboutUs/>}></Route>
@@ -26,8 +26,8 @@ function App() {
           <Route path = "/volunteer" element = {<Volunteer/>}></Route>
           <Route path = "/our-summer-programs" element = {<OurSummerProgram/>}></Route>
           <Route path = "/become-a-tutor" element = {<Tutor/>}></Route>
+          <Route path = "/components" element = {<Components/>}></Route>
         </Routes>
-      </Router>
       <Footer/>
     </div>
   );
