@@ -1,0 +1,13 @@
+.main_container {
+    background-size: cover;
+    background-position: center;
+    padding-top: 10%;
+    padding-right: 50%;
+    padding-left: 5%;
+    padding-bottom: 50%;
+}
+
+.weeks_hours {
+    display: flex;
+    flex-direction: row;
+}
