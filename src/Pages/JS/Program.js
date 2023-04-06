@@ -14,9 +14,9 @@ export default function Program(props) {
 
     const data = programInfo[gradeLevel - 1];
 
-    const goals = data.learningGoals.map((goal) => {
+    const goals = data.learningGoals.map((goal, index) => {
         return (
-            <li style={{color: props.color}}>{goal}</li>
+            <li key={index} style={{color: props.color}}>{goal}</li>
         );
     });
 
