@@ -1,8 +1,8 @@
 import React from 'react';
-import "../CSS/Register.css"
 import Header from '../../Components/JS/Header';
+import "../CSS/Register.css"
 
-export default function Register() {
+export default function OurSummerProgram() {
 
     return (
         <div>

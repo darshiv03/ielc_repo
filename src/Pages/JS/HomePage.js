@@ -7,7 +7,7 @@ export default function HomePage() {
 
     return (
         <div>
-            <Header></Header>
+            <Header backgroundImage = "./home_page.png"></Header>
         </div>
     )
 }
