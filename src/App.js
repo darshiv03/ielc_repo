@@ -10,7 +10,7 @@ import Register from "./Pages/JS/Register";
 import Volunteer from "./Pages/JS/Volunteer";
 import OurSummerProgram from './Pages/JS/OurSummerProgram';
 import Tutor from './Pages/JS/Tutor';
-import Circles from './Components/JS/Circles';
+import HomePage from './Pages/JS/HomePage';
 
 function App() {
   return (
@@ -18,7 +18,7 @@ function App() {
       <Navbar/>
       <Router>
         <Routes>
-          <Route path = "/" element = {<Circles/>}></Route>
+          <Route path = "/" element = {<HomePage/>}></Route>
           <Route path = "/about-us" element = {<AboutUs/>}></Route>
           <Route path = "/contact-us" element = {<ContactUs/>}></Route>
           <Route path = "/program/:gradeLevel" element = {<Program/>}></Route>
