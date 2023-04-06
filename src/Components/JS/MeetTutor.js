@@ -34,7 +34,7 @@ const data = [
 export default function MeetTutor() {
 
     return (
-        <div className="body">
+        <div className="meet-tutor-body">
             < div className = "titleName">
                 <h2>Meet Our Tutors</h2>
             </div>

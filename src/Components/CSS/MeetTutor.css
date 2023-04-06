@@ -1,11 +1,13 @@
-.body {
-    width: 100vw;
+.meet-tutor-body {
+    margin-left: 24px;
+    margin-right: 24px;
+    width: calc(100%-48px);
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
     align-items: left;
     justify-content: left;
-    gap: 15px;
+    gap: 8px;
  
 }
 .titleName h2 {
@@ -27,5 +29,5 @@
 
 .titleName p {
     color: #828282;
-
 }
+

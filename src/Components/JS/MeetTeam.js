@@ -39,7 +39,7 @@ const data = [
 export default function MeetTeam() {
 
     return (
-        <div className="body">
+        <div className="meet-team-body">
             < div className = "title">
                 <h2>Our Team</h2>
                 <p>Lorem Ipsum</p>
