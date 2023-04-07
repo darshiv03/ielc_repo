@@ -1,7 +1,3 @@
-/*commented code is stuff i found online 
-https://strapengine.com/contact-form-with-nodemailer-gmail-and-node-js/
-but idk if its useful/applies here*/
-
 import axios from "axios"
 import nodemailer from "nodemailer"
 
@@ -22,15 +18,16 @@ export default async function handler(req, res){
                 host: 'smtp.ethereal.email',
                 port: 587,
                 auth: {
-                    user: 'kiana.nolan@ethereal.email',
-                    pass: 'A1rGv9rgK6KfWC3ZUw'
+                    user: 'torey95@ethereal.email',
+                    pass: 'M8FRfgbtshjxjUMcZt'
                 }
             })
-            
-            const firstname= req.body.firstname
-            const lastname= req.body.lastname
-            const email= req.body.email
-            const question= req.body.question;
+            const data = JSON.parse(req.body)
+
+            const firstname= data.fname
+            const lastname= data.lname
+            const email= data.mail
+            const question= data.msg;
             
             const mailOption = {
                 from: "senderemail@gmail.com",
