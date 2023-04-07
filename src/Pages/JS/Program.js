@@ -32,10 +32,10 @@ export default function Program(props) {
                 <h2 class="goals-heading" style={{color: props.color}}>{data.subHeading}</h2>
                 <ul class="p-large">{goals}</ul>
             </section>
-            <section class="tutor-section" style={{backgroundColor: props.color}}>
+            <section class="tutor-section" style={{backgroundColor: props.backgroundColor}}>
                 <div class="tutor-header">
                     <div class="portrait"><img src={tutor_img} alt="Portrait of tutor Jane Rose"/></div>
-                    <h3>Meet {data.tutorName}</h3>
+                    <h3 style={{color: props.colo}}>Meet {data.tutorName}</h3>
                     <h4 class="tutorSchool">{data.tutorSchool}</h4>
                 </div>
                 <p class="p-medium">{data.tutorDescr}</p>
