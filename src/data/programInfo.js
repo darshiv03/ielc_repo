@@ -2,7 +2,7 @@ const programInfo = [
     {
         grade: 1,
 
-        mainHeading: "Designed to prepare & reinforce literacy concepts.",
+        mainHeading: "Designed to prepare &\nreinforce literacy concepts.",
 
         description: "Our tutors prepare students from grades 1 to 5 with reading comprehension and grammar skills in accordance with the Common Core Standards in 60-minute sessions conducted over Zoom.",
 

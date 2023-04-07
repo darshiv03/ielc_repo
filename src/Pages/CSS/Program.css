@@ -1,17 +1,49 @@
-@media  and (min-width: 700px) {
-  body {
-    background-color: black;
-  }
-  
-  
-}
-/*PROGRAM HEADER: content at top of page */
 .image {
   width: 100%;
   height: auto;
 }
-p {
+.component {
+  display: flex;
+  justify-content: space-between;
+  column-gap: 100px;
+  margin-top: 2em;
+  padding-left: 5em;
+  padding-right: 5em;
+}
+.grade-text {
+  display: none;
+}
+
+h3, p {
   white-space: pre-wrap;
+}
+.program-header {
+  margin-right: auto;
+  width: 50%;
+}
+.goals {
+  margin-left: auto;
+  width: 50%;
+}
+
+
+@media  screen and (max-width: 768px) {
+/*PROGRAM HEADER: content at top of page */
+.component {
+  display: flex;
+  flex-direction: column;
+  padding-left: 0;
+  padding-right: 0;
+}
+.image {
+  width: 100%;
+  height: auto;
+}
+.grade-text {
+  display: contents;
+}
+.program-header, .goals {
+  width: auto;
 }
 .program-header, .goals, .registration, .tutor-section {
   padding: 0 1.25em;
@@ -80,3 +112,9 @@ li, .program-header > p, .tutor-section > p, .deadline {
 .goals-heading, .tutorSchool {
   color: #3B3D3B;
 }
+.bottom {
+  margin-top:none;
+}
+}
+
+

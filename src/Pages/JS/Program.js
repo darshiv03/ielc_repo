@@ -23,15 +23,18 @@ export default function Program(props) {
     return (
         <div>
             <img src={student_img} alt="Student raising their hand in classroom" class="image"/>
-            <section class="program-header">
-                <h1 style={{color: props.color}}>Grade {gradeLevel}</h1>
-                <h3>{data.mainHeading}</h3>
-                <p class="p-medium">{data.description}</p>
-            </section>
-            <section class="goals">
-                <h2 class="goals-heading" style={{color: props.color}}>{data.subHeading}</h2>
-                <ul class="p-large">{goals}</ul>
-            </section>
+            <div class="component">
+              
+                <section class="program-header">
+                    <h1 style={{color: props.color}} class="grade-text">Grade {gradeLevel}</h1>    
+                    <h3>{data.mainHeading}</h3>
+                    <p class="p-medium">{data.description}</p>
+                </section>
+                <section class="goals">
+                    <h2 class="goals-heading" style={{color: props.color}}>{data.subHeading}</h2>
+                    <ul class="p-large">{goals}</ul>
+                </section>
+            </div>
             <section class="tutor-section" style={{backgroundColor: props.backgroundColor}}>
                 <div class="tutor-header">
                     <div class="portrait"><img src={tutor_img} alt="Portrait of tutor Jane Rose"/></div>
