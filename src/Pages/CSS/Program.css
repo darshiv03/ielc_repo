@@ -69,6 +69,11 @@ li {
   font-family: 'Manrope', sans-serif;
   font-weight: 700;
   font-size: 1.15rem;
-  color: var(--gray500);
   line-height: 1.625rem;
+}
+li, .program-header > p, .tutor-section > p, .deadline {
+  color: var(--gray500);
+}
+.goals-heading, .tutorSchool {
+  color: #3B3D3B;
 }

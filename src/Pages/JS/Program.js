@@ -16,7 +16,7 @@ export default function Program(props) {
 
     const goals = data.learningGoals.map((goal, index) => {
         return (
-            <li key={index} style={{color: props.color}}>{goal}</li>
+            <li key={index}>{goal}</li>
         );
     });
 
@@ -24,7 +24,7 @@ export default function Program(props) {
         <div>
             <img src={student_img} alt="Student raising their hand in classroom" class="image"/>
             <section class="program-header">
-                <h1 style={{backgroundColor: props.color}}>Grade {gradeLevel}</h1>
+                <h1 style={{color: props.color}}>Grade {gradeLevel}</h1>
                 <h3>{data.mainHeading}</h3>
                 <p class="p-medium">{data.description}</p>
             </section>
@@ -36,12 +36,12 @@ export default function Program(props) {
                 <div class="tutor-header">
                     <div class="portrait"><img src={tutor_img} alt="Portrait of tutor Jane Rose"/></div>
                     <h3>Meet {data.tutorName}</h3>
-                    <h4>{data.tutorSchool}</h4>
+                    <h4 class="tutorSchool">{data.tutorSchool}</h4>
                 </div>
                 <p class="p-medium">{data.tutorDescr}</p>
             </section>
             <section class="registration">
-                <h3>{data.slogan}</h3>
+                <h3 style={{color: props.color}}>{data.slogan}</h3>
                 <button style={{backgroundColor: props.color}}>{data.register_bttn}</button>
                 <p class="deadline">{data.deadline}</p>
             </section>
