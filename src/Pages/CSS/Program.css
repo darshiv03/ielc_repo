@@ -7,8 +7,6 @@
   padding-left: 100px;
   padding-right: 100px;
   column-gap: 100px;
-  
-
 }
 .component {
   justify-content: space-between;
@@ -62,6 +60,33 @@ h3, p {
 }
 .bio {
   margin-left: auto;
+}
+.registration {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 65px;
+  padding-bottom: 65px;
+}
+.slogan {
+  font-size: 2em;
+}
+.registration > button {
+  border-style: none;
+  border-radius: 8px;
+  background-color: none;
+  color: var(--creme-white);
+  font-family: 'Manrope', sans-serif;
+  font-size: 1.25rem;
+  font-weight: 700;
+  padding: 0.5em 5em;
+}
+.deadline {
+  font-family: 'Manrope', sans-serif;
+  font-weight: 700;
+  font-size: 1.15rem;
+  line-height: 1.625rem;
+  text-align: center;
 }
 @media  screen and (max-width: 768px) {
 /*PROGRAM HEADER: content at top of page */
@@ -126,24 +151,17 @@ h3, p {
 }
 /*REGISTRATION SECTION */
 .registration {
-  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
   padding: 1.25em 0;
 }
-.registration > button {
-  border-style: none;
-  border-radius: 8px;
-  background-color: none;
-  color: var(--creme-white);
-  font-family: 'Manrope', sans-serif;
+.slogan {
   font-size: 1.5625rem;
-  font-weight: 700;
-  padding: 0.75em 2em;
 }
-.deadline {
-  font-family: 'Manrope', sans-serif;
-  font-weight: 700;
-  font-size: 1.15rem;
-  line-height: 1.625rem;
+.registration > button {
+  font-size: 1.5625rem;
+  padding: 0.75em 2em;
 }
 li, .program-header > p, .tutor-section > p, .deadline {
   color: var(--gray500);
