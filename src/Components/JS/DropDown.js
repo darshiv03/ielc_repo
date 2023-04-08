@@ -1,8 +1,7 @@
 import React from 'react';
-import "../CSS/ContactUs.css"
+import "../CSS/DropDown.css"
 
-
-export default function ContactUs() {
+export default function DropDown() {
 
     return (
         <div>
