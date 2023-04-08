@@ -64,7 +64,6 @@ export default function Program(props) {
                 <div class="grade-buttons">{gradeButtons}</div>
             </section>
         </div>
-        <img src={student_img} alt="Student raising hand in classroom" width="100%" height="auto"/>
     )
 
 }
