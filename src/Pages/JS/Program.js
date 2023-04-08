@@ -19,15 +19,24 @@ export default function Program(props) {
             <li key={index}>{goal}</li>
         );
     });
-
+    let otherGrades = [];
+    for (let i = 0; i < programInfo.length; i++) {
+        if (i !== gradeLevel - 1) {
+            otherGrades.push(programInfo[i].grade)
+        }
+    }
+    const gradeButtons = otherGrades.map((grade, index) => {
+        return (
+            <button class="grade-button" key={index}>Grade {grade}</button>
+        );
+    });
     return (
         <div>
             <img src={student_img} alt="Student raising their hand in classroom" class="image"/>
             <div class="component">
-              
                 <section class="program-header">
                     <h1 style={{color: props.color}} class="grade-text">Grade {gradeLevel}</h1>    
-                    <h3>{data.mainHeading}</h3>
+                    <h3 class="main-heading">{data.mainHeading}</h3>
                     <p class="p-medium">{data.description}</p>
                 </section>
                 <section class="goals">
@@ -47,6 +56,10 @@ export default function Program(props) {
                 <h3 class="slogan" style={{color: props.color}}>{data.slogan}</h3>
                 <button style={{backgroundColor: props.color}}>{data.register_bttn}</button>
                 <p class="deadline">{data.deadline}</p>
+            </section>
+            <section class="other-grades">
+                <h1 class="grade-heading">Our Other Grades</h1>
+                <div class="grade-buttons">{gradeButtons}</div>
             </section>
         </div>
     )

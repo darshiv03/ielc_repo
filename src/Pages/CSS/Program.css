@@ -1,3 +1,14 @@
+/* COLORS FOR PAGE */
+li, .program-header > p, .tutor-section > p, .deadline {
+  color: var(--gray500);
+}
+.goals-heading, .tutorSchool {
+  color: #3B3D3B;
+}
+/* DESKTOP STYLING */
+.main-heading {
+  font-size: 2em;
+}
 .image {
   width: 100%;
   height: auto;
@@ -6,7 +17,6 @@
   display: flex;
   padding-left: 100px;
   padding-right: 100px;
-  column-gap: 100px;
 }
 .component {
   justify-content: space-between;
@@ -23,13 +33,15 @@ h3, p {
 }
 .program-header {
   margin-right: auto;
-  width: 50%;
+  max-width: 40%;
+}
+.goals-heading {
+  font-size: 1.75rem;
 }
 .goals{
   margin-left: auto;
-  width: 50%;
+  max-width: 45%;
 }
-
 .portrait {
   display: inline-block;
   position: relative;
@@ -44,22 +56,26 @@ h3, p {
   margin-left: -75px;
 }
 .tutor-section {
-  background-color:aqua;
   align-items: center;
   padding-top: 100px;
   padding-bottom: 100px;
+  column-gap: 60px;
 }
 .tutor-header {
   display: flex;
   flex-direction: column;
   align-items: center;
+  margin-left: auto;
+  margin-right: auto;
 }
 .tutorName, .tutorSchool {
   margin-top: 5px;
   margin-bottom: 0px;
 }
 .bio {
+  max-width: 50%;
   margin-left: auto;
+  margin-right: auto;
 }
 .registration {
   display: flex;
@@ -80,6 +96,31 @@ h3, p {
   font-size: 1.25rem;
   font-weight: 700;
   padding: 0.5em 5em;
+}
+.grade-heading {
+  font-size: 2em;
+}
+.other-grades {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-bottom: 50px;
+}
+.grade-buttons {
+  display: flex;
+  align-items: center;
+}
+.grade-button {
+  border-style: none;
+  border-radius: 8px;
+  background-color: none;
+  color: var(--creme-white);
+  font-family: 'Manrope', sans-serif;
+  font-size: 1.25rem;
+  font-weight: 700;
+  padding: 0.75em 4rem;
+  margin: 0 5px;
+  flex-shrink: 1;
 }
 .deadline {
   font-family: 'Manrope', sans-serif;
@@ -104,8 +145,11 @@ h3, p {
 .grade-text {
   display: contents;
 }
+.main-heading {
+  font-size: 1.5625rem;
+}
 .program-header, .goals {
-  width: auto;
+  max-width: none;
 }
 .program-header, .goals, .registration, .tutor-section {
   padding: 0 1.25em;
@@ -115,6 +159,7 @@ h3, p {
 }
 .goals-heading {
   text-align: center;
+  font-size: 2rem;
 }
 
 /* TUTOR SECTION */
@@ -149,6 +194,9 @@ h3, p {
   height: 100%;
   margin-left: -20px;
 }
+.bio {
+  max-width: none;
+}
 /*REGISTRATION SECTION */
 .registration {
   display: flex;
@@ -163,15 +211,10 @@ h3, p {
   font-size: 1.5625rem;
   padding: 0.75em 2em;
 }
-li, .program-header > p, .tutor-section > p, .deadline {
-  color: var(--gray500);
-}
-.goals-heading, .tutorSchool {
-  color: #3B3D3B;
-}
 .bottom {
   margin-top:none;
 }
+.other-grades {
+  display:none;
 }
-
-
+}
