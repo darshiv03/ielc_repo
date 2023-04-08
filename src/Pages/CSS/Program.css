@@ -2,13 +2,19 @@
   width: 100%;
   height: auto;
 }
-.component {
+.component, .tutor-section {
   display: flex;
+  padding-left: 100px;
+  padding-right: 100px;
+  column-gap: 100px;
+  
+
+}
+.component {
   justify-content: space-between;
   column-gap: 100px;
-  margin-top: 2em;
-  padding-left: 5em;
-  padding-right: 5em;
+  padding-top: 50px;
+  padding-bottom: 50px;
 }
 .grade-text {
   display: none;
@@ -21,17 +27,48 @@ h3, p {
   margin-right: auto;
   width: 50%;
 }
-.goals {
+.goals{
   margin-left: auto;
   width: 50%;
 }
 
-
+.portrait {
+  display: inline-block;
+  position: relative;
+  width: 300px;
+  height: 300px;
+  overflow: hidden;
+  border-radius: 50%;
+}
+.portrait > img {
+  width: auto;
+  height: 100%;
+  margin-left: -75px;
+}
+.tutor-section {
+  background-color:aqua;
+  align-items: center;
+  padding-top: 100px;
+  padding-bottom: 100px;
+}
+.tutor-header {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.tutorName, .tutorSchool {
+  margin-top: 5px;
+  margin-bottom: 0px;
+}
+.bio {
+  margin-left: auto;
+}
 @media  screen and (max-width: 768px) {
 /*PROGRAM HEADER: content at top of page */
 .component {
   display: flex;
   flex-direction: column;
+  padding-top: 30px;
   padding-left: 0;
   padding-right: 0;
 }
@@ -49,7 +86,7 @@ h3, p {
   padding: 0 1.25em;
 }
 .program-header > * {
-  margin: 0.5em 0;
+  margin: 0.5em 0
 }
 .goals-heading {
   text-align: center;
@@ -59,6 +96,8 @@ h3, p {
 .tutor-section {
   padding-top: 2em;
   padding-bottom: 1.5em;
+  display: flex;
+  flex-direction: column;
 }
 .tutor-header > h4 {
   font-family: 'Jost', sans-serif;
