@@ -3,6 +3,8 @@ import { useParams } from 'react-router-dom';
 import "../CSS/Program.css"
 import student_img from './student-class.jpeg'
 import tutor_img from './tutor-portrait.jpg'
+import student_img from './student-program-img.jpeg'
+
 import programInfo from '../../data/programInfo'
 
 
@@ -62,6 +64,7 @@ export default function Program(props) {
                 <div class="grade-buttons">{gradeButtons}</div>
             </section>
         </div>
+        <img src={student_img} alt="Student raising hand in classroom" width="100%" height="auto"/>
     )
 
 }
