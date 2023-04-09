@@ -134,6 +134,7 @@ h3, p {
   padding: 0.75em 4rem;
   margin: 0 5px;
   flex-shrink: 1;
+  width: initial;
 }
 .deadline {
   font-family: 'Manrope', sans-serif;
