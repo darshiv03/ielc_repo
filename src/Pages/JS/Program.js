@@ -17,7 +17,7 @@ export default function Program(props) {
 
     const goals = data.learningGoals.map((goal, index) => {
         return (
-            <li className = "program-li" key={index}>{goal}</li>
+            <li key={index}>{goal}</li>
         );
     });
     let otherGrades = [];

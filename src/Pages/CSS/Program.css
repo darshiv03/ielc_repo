@@ -9,12 +9,6 @@ li, .program-header > p, .tutor-section > p, .deadline {
 .main-heading {
   font-size: 2em;
 }
-
-.program-li {
-  text-align:initial;
-  padding-top: 0;
-  padding-bottom: 0;
-}
 .image {
   width: 100%;
   height: auto;
