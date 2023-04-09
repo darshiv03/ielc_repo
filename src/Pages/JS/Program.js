@@ -23,12 +23,13 @@ export default function Program(props) {
     let otherGrades = [];
     for (let i = 0; i < programInfo.length; i++) {
         if (i !== gradeLevel - 1) {
-            otherGrades.push(programInfo[i].grade)
+            otherGrades.push(programInfo[i])
         }
     }
     const gradeButtons = otherGrades.map((grade, index) => {
+        let c = grade.color;
         return (
-            <button class="grade-button" key={index}>Grade {grade}</button>
+            <button style = {{backgroundColor: c}}class="grade-button" key={index}>Grade {grade.grade}</button>
         );
     });
     return (
@@ -58,7 +59,7 @@ export default function Program(props) {
                 <button style={{backgroundColor: props.color}}>{data.register_bttn}</button>
                 <p class="deadline">{data.deadline}</p>
             </section>
-            <section class="other-grades">
+            <section class="other-grades" style={{backgroundColor: props.backgroundColor}}>
                 <h1 class="grade-heading">Our Other Grades</h1>
                 <div class="grade-buttons">{gradeButtons}</div>
             </section>
