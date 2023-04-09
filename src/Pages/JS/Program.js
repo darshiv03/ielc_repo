@@ -17,7 +17,7 @@ export default function Program(props) {
 
     const goals = data.learningGoals.map((goal, index) => {
         return (
-            <li key={index}>{goal}</li>
+            <li className='program-page-li' key={index}>{goal}</li>
         );
     });
     let otherGrades = [];
@@ -42,7 +42,7 @@ export default function Program(props) {
                 </section>
                 <section class="goals">
                     <h2 class="goals-heading" style={{color: props.color}}>{data.subHeading}</h2>
-                    <ul class="p-large">{goals}</ul>
+                    <ul class="p-large program-page-ul">{goals}</ul>
                 </section>
             </div>
             <section class="tutor-section" style={{backgroundColor: props.backgroundColor}}>

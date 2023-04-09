@@ -9,6 +9,19 @@ li, .program-header > p, .tutor-section > p, .deadline {
 .main-heading {
   font-size: 2em;
 }
+
+/* Need to add the following 2 classes because the li and ul classNames in dropdownmenu.css are conflicting with the li and ul tags in program.js */
+.program-page-ul {
+  padding-left: 40px;
+  width: initial;
+}
+.program-page-li{
+  text-align: initial;
+  padding-top: 0;
+  padding-bottom: 0;
+}
+
+
 .image {
   width: 100%;
   height: auto;

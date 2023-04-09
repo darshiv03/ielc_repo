@@ -46,22 +46,6 @@ const programInfo = [
         deadline: "Deadline to Apply:\n June 4th at 11:59 pm PST"
     },
     {
-        grade: 2,
-        url: ''
-    },
-    {
-        grade: 3,
-        url: ''
-    },
-    {
-        grade: 4,
-        url: ''
-    },
-    {
-        grade: 5,
-        url: ''
-    },
-    {
         grade: 3,
 
         mainHeading: "Designed to prepare & reinforce literacy concepts.",
