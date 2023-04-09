@@ -44,8 +44,6 @@ const programInfo = [
         register_bttn: "Save your Free Spot", 
 
         deadline: "Deadline to Apply:\n June 4th at 11:59 pm PST"
-
-        url: ''
     },
     {
         grade: 2,

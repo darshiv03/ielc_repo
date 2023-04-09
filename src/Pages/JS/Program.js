@@ -3,7 +3,6 @@ import { useParams } from 'react-router-dom';
 import "../CSS/Program.css"
 import student_img from './student-class.jpeg'
 import tutor_img from './tutor-portrait.jpg'
-import student_img from './student-program-img.jpeg'
 
 import programInfo from '../../data/programInfo'
 
