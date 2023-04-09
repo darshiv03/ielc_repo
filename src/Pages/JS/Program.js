@@ -33,7 +33,7 @@ export default function Program(props) {
     });
     return (
         <div>
-            <img src={student_img} alt="Student raising their hand in classroom" class="image"/>
+            <img src={student_img} alt="Student raising their hand in classroom" class="program-page-image"/>
             <div class="component">
                 <section class="program-header">
                     <h1 style={{color: props.color}} class="grade-text">Grade {gradeLevel}</h1>    

@@ -5,6 +5,8 @@ li, .program-header > p, .tutor-section > p, .deadline {
 .goals-heading, .tutorSchool {
   color: #3B3D3B;
 }
+
+
 /* DESKTOP STYLING */
 .main-heading {
   font-size: 2em;
@@ -22,7 +24,7 @@ li, .program-header > p, .tutor-section > p, .deadline {
 }
 
 
-.image {
+.program-page-image {
   width: 100%;
   height: auto;
 }
@@ -143,6 +145,8 @@ h3, p {
   line-height: 1.625rem;
   text-align: center;
 }
+
+/* Mobile styling */
 @media  screen and (max-width: 768px) {
 /*PROGRAM HEADER: content at top of page */
 .component {
