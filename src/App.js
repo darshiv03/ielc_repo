@@ -12,6 +12,7 @@ import OurSummerProgram from './Pages/JS/OurSummerProgram';
 import Tutor from './Pages/JS/Tutor';
 import HomePage from './Pages/JS/HomePage';
 import Components from './Pages/JS/Components';
+import OurSummerProgram from './Pages/JS/OurSummerProgram';
 
 function App() {
   return (
@@ -27,6 +28,7 @@ function App() {
           <Route path = "/our-summer-programs" element = {<OurSummerProgram/>}></Route>
           <Route path = "/become-a-tutor" element = {<Tutor/>}></Route>
           <Route path = "/components" element = {<Components/>}></Route>
+          <Route path = "/our-summer-programs" element = {<OurSummerProgram/>}></Route>
         </Routes>
       <Footer/>
     </div>
