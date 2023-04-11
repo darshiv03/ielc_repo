@@ -10,6 +10,7 @@ import HomePage from "./Pages/JS/HomePage";
 import Register from "./Pages/JS/Register";
 import Volunteer from "./Pages/JS/Volunteer";
 import Components from './Pages/JS/Components';
+import OurSummerProgram from './Pages/JS/OurSummerProgram';
 
 function App() {
   return (
@@ -23,6 +24,7 @@ function App() {
           <Route path = "/register" element = {<Register/>}></Route>
           <Route path = "/volunteer" element = {<Volunteer/>}></Route>
           <Route path = "/components" element = {<Components/>}></Route>
+          <Route path = "/our-summer-programs" element = {<OurSummerProgram/>}></Route>
         </Routes>
       <Footer/>
     </div>
