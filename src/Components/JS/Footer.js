@@ -11,9 +11,7 @@ export default function Footer() {
     return (
         <div class = "bod">
             
-            <div class ="logo">
-                {LogoIcon(50)}
-            </div>
+            <LogoIcon size={50}/>
                 <div className='learn-more-container'>
                     <p className = "a">Learn More</p>
                     <Link to="/about-us">About us</Link> 
