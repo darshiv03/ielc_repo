@@ -1,6 +1,6 @@
 import React from 'react';
 import Header from '../../Components/JS/Header';
-import Circles from '../../Components/JS/Circles';
+import OurSummerProgramsBottom from '../../Components/JS/OurSummerProgramsBottom';
 import "../CSS/Register.css"
 
 export default function OurSummerProgram() {
@@ -8,7 +8,7 @@ export default function OurSummerProgram() {
     return (
         <div>
             <Header backgroundImage = "./programs.jpg"></Header>
-            <Circles/>
+            <OurSummerProgramsBottom/>
         </div>
     )
 }

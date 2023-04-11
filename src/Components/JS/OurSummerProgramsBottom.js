@@ -1,11 +1,11 @@
 import React from 'react';
-import "../CSS/Circles.css"
+import "../CSS/OurSummerProgramsBottom.css"
 import {ReactComponent as Ellipse1SVG} from "../../../src/Ellipse1.svg"
 import {ReactComponent as Ellipse2SVG} from "../../../src/Ellipse2.svg"
 import {ReactComponent as Ellipse3SVG} from "../../../src/Ellipse3.svg"
 import {ReactComponent as Ellipse4SVG} from "../../../src/Ellipse4.svg"
 
-export default function Circles() {
+export default function OurSummerProgramsBottom() {
 
     return (
 
