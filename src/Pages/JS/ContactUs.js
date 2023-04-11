@@ -3,6 +3,16 @@ import "../CSS/ContactUs.css"
 
 
 export default function ContactUs() {
+    const onSubmitHandler= (event)=> {
+        event.preventDefault()
+        const data = new FormData(event.target);
+        const values = Object.fromEntries(data.entries())
+        console.log(values)
+        fetch('/api/contact.js', {
+            method: "POST",
+            body: JSON.stringify(values)
+        })
+    }
     return (
         <div className= "contact-us-container">
             <h1 className="contact-header">Contact Us</h1>
@@ -12,7 +22,7 @@ export default function ContactUs() {
                 We'll get back to you as soon as possible!</p> <br></br><br></br><br></br>
             <h3 className= "red-letters">* = required</h3>
 
-            <form>
+            <form onSubmit= {onSubmitHandler}>
                 <label className= "required" htmlFor="fname">First Name <span> </span></label><br></br>
                 <input type="text" id="fname" name="fname" required minLength="1" placeholder="Type here"/><br></br>
                 <label className= "required" htmlFor="lname">Last Name </label><br></br>
@@ -24,7 +34,7 @@ export default function ContactUs() {
                 <label htmlFor="msg">Message</label><br></br>
                 <textarea type="text" id="msg" name="msg" placeholder="Type here"/><br></br>
                 
-                <input type="submit" value="Send Message" />
+                <input type="submit" value="Send Message"/>
                 
             </form>
         </div>
