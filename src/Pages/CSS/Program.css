@@ -1,0 +1,237 @@
+/* COLORS FOR PAGE */
+li, .program-header > p, .tutor-section > p, .deadline {
+  color: var(--gray500);
+}
+.goals-heading, .tutorSchool {
+  color: #3B3D3B;
+}
+
+
+/* DESKTOP STYLING */
+.main-heading {
+  font-size: 2em;
+}
+
+/* Need to add the following 2 classes because the li and ul classNames in dropdownmenu.css are conflicting with the li and ul tags in program.js */
+.program-page-ul {
+  padding-left: 40px;
+  width: initial;
+}
+.program-page-li{
+  text-align: initial;
+  padding-top: 0;
+  padding-bottom: 0;
+}
+
+
+.program-page-image {
+  width: 100%;
+  height: auto;
+}
+.component, .tutor-section {
+  display: flex;
+  padding-left: 100px;
+  padding-right: 100px;
+}
+.component {
+  justify-content: space-between;
+  column-gap: 100px;
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+.grade-text {
+  display: none;
+}
+
+h3, p {
+  white-space: pre-wrap;
+}
+.program-header {
+  margin-right: auto;
+  max-width: 40%;
+}
+.goals-heading {
+  font-size: 1.75rem;
+}
+.goals{
+  margin-left: auto;
+  max-width: 45%;
+}
+.portrait {
+  display: inline-block;
+  position: relative;
+  width: 300px;
+  height: 300px;
+  overflow: hidden;
+  border-radius: 50%;
+}
+.portrait > img {
+  width: auto;
+  height: 100%;
+  margin-left: -75px;
+}
+.tutor-section {
+  align-items: center;
+  padding-top: 100px;
+  padding-bottom: 100px;
+  column-gap: 60px;
+}
+.tutor-header {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-left: auto;
+  margin-right: auto;
+}
+.tutorName, .tutorSchool {
+  margin-top: 5px;
+  margin-bottom: 0px;
+}
+.bio {
+  max-width: 50%;
+  margin-left: auto;
+  margin-right: auto;
+}
+.registration {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 65px;
+  padding-bottom: 65px;
+}
+.slogan {
+  font-size: 2em;
+}
+.registration > button {
+  border-style: none;
+  border-radius: 8px;
+  background-color: none;
+  color: var(--creme-white);
+  font-family: 'Manrope', sans-serif;
+  font-size: 1.25rem;
+  font-weight: 700;
+  padding: 0.5em 5em;
+}
+.grade-heading {
+  font-size: 2em;
+}
+.other-grades {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-bottom: 50px;
+}
+.grade-buttons {
+  display: flex;
+  align-items: center;
+}
+.grade-button {
+  border-style: none;
+  border-radius: 8px;
+  color: var(--creme-white);
+  font-family: 'Manrope', sans-serif;
+  font-size: 1.25rem;
+  font-weight: 700;
+  padding: 0.75em 4rem;
+  margin: 0 5px;
+  flex-shrink: 1;
+  width: initial;
+}
+.deadline {
+  font-family: 'Manrope', sans-serif;
+  font-weight: 700;
+  font-size: 1.15rem;
+  line-height: 1.625rem;
+  text-align: center;
+}
+
+/* Mobile styling */
+@media  screen and (max-width: 768px) {
+/*PROGRAM HEADER: content at top of page */
+.component {
+  display: flex;
+  flex-direction: column;
+  padding-top: 30px;
+  padding-left: 0;
+  padding-right: 0;
+}
+.image {
+  width: 100%;
+  height: auto;
+}
+.grade-text {
+  display: contents;
+}
+.main-heading {
+  font-size: 1.5625rem;
+}
+.program-header, .goals {
+  max-width: none;
+}
+.program-header, .goals, .registration, .tutor-section {
+  padding: 0 1.25em;
+}
+.program-header > * {
+  margin: 0.5em 0
+}
+.goals-heading {
+  text-align: center;
+  font-size: 2rem;
+}
+
+/* TUTOR SECTION */
+.tutor-section {
+  padding-top: 2em;
+  padding-bottom: 1.5em;
+  display: flex;
+  flex-direction: column;
+}
+.tutor-header > h4 {
+  font-family: 'Jost', sans-serif;
+  font-size: 1.35rem;
+}
+.tutor-header {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.tutor-header > * {
+  margin: 0.25em;
+}
+.portrait {
+  display: inline-block;
+  position: relative;
+  width: 90px;
+  height: 90px;
+  overflow: hidden;
+  border-radius: 50%;
+}
+.portrait > img {
+  width: auto;
+  height: 100%;
+  margin-left: -20px;
+}
+.bio {
+  max-width: none;
+}
+/*REGISTRATION SECTION */
+.registration {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 1.25em 0;
+}
+.slogan {
+  font-size: 1.5625rem;
+}
+.registration > button {
+  font-size: 1.5625rem;
+  padding: 0.75em 2em;
+}
+.bottom {
+  margin-top:none;
+}
+.other-grades {
+  display:none;
+}
+}
