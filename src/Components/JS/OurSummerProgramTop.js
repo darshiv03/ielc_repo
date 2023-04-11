@@ -13,12 +13,12 @@ export default function Program() {
 
     return (
         <div>
-            <div class="image-1">
+            {/* <div class="image-1">
                 <img src="/programs1.png"></img>
                 <h1 class="image-text">Our Summer <br></br>
                     Program 2023</h1>
                 <p class="image-subtext">7 weeks • 2 Hours per Week</p>
-            </div>
+            </div> */}
 
             <div class="text">
                 <h3>Designed to prepare & reinforce literacy concepts.</h3>

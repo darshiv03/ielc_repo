@@ -1,4 +1,5 @@
 import React from 'react';
+import { useParams } from 'react-router-dom';
 import "../CSS/Program.css"
 import student_img from './student-class.jpeg'
 import tutor_img from './tutor-portrait.jpg'
@@ -7,6 +8,9 @@ import programInfo from '../../data/programInfo'
 export default function Program(props) {
     // Get the gradeLevel param from the URL.
 
+    let { gradeLevel } = useParams();
+
+    const data = programInfo[gradeLevel - 1];
 
     const goals = data.learningGoals.map((goal, index) => {
         return (

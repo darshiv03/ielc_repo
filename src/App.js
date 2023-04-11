@@ -12,7 +12,6 @@ import OurSummerProgram from './Pages/JS/OurSummerProgram';
 import Tutor from './Pages/JS/Tutor';
 import HomePage from './Pages/JS/HomePage';
 import Components from './Pages/JS/Components';
-import OurSummerProgram from './Pages/JS/OurSummerProgram';
 
 function App() {
   return (
