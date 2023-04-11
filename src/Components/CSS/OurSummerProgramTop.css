@@ -20,6 +20,10 @@ div p, h1, h2, h3 {  /* spacing for all left-aligned text */
     bottom: 1.25rem;
 }
 
+.save-spot {
+    margin-bottom: 2rem;
+}
+
 .image-subtext {
     color: var(--creme-white);
     position: absolute;
@@ -30,10 +34,6 @@ div p, h1, h2, h3 {  /* spacing for all left-aligned text */
 
 .image-1 p {
     border-top: 10rem;
-}
-
-.text {
-    margin-bottom: 3rem;
 }
 
 .text p {
@@ -105,3 +105,75 @@ button:nth-child(4) {
 button:nth-child(5) {
     background-color: #8E41CA;
 }
+
+.column:nth-child(2) {
+    display: none;
+}
+
+@media screen and (min-width: 760px) {
+    .image-1 img {
+      max-height: 60vh;
+      object-fit: cover;
+    }
+
+    .image-text {
+        left: 5rem;
+        bottom: 6rem;
+    }
+
+    .image-text br {
+        display: none;
+    } 
+    
+    .image-subtext {
+        bottom: 4rem;
+        left: 5rem;
+        line-height: 1.2;
+    }
+
+    .image-2 {
+        display: none;
+    }
+
+    .save-spot .button-wrapper {
+        flex-direction: column;
+    }
+
+    .save-spot .button-wrapper button {
+        width: 35%;
+    }
+
+    .save-spot {
+        margin-bottom: 8rem;
+    }
+
+    .button-wrapper {
+        flex-direction: row;
+        padding: 0% 5%;
+    }
+
+    .text {
+        display: flex;
+        flex-direction: row;
+    }
+
+    .column {
+        flex-basis: 50%;
+        padding: 5rem;
+    }
+
+    .column h3 {
+        font-size: 40px;
+        line-height: 55px;
+    }
+
+    .column:nth-child(2) {
+        display: block;
+        padding-left: 0rem;
+    }
+
+    .grade-finder img {
+        width: 3rem;
+        margin: 0 auto;
+    }
+  }
