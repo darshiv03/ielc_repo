@@ -1,0 +1,4 @@
+.logo3 {
+    mask: url(/public/Mail.svg) no-repeat center / contain;
+    -webkit-mask: url(/public/Mail.svg) no-repeat center / contain;
+}

@@ -1,7 +1,7 @@
 import axios from "axios"
 import nodemailer from "nodemailer"
 
-export default async function handler(req, res){
+export default async function contactMailer(req, res){
     if (req.method !== 'POST'){
         res.render(contact.html) //front-end html page file
     } else {

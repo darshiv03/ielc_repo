@@ -1,0 +1,54 @@
+.circle_container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-left: 24px;
+    margin-right: 24px;
+    width: calc(100%-48px);
+}
+
+.Explicit_Thinking {
+    color: #E84D28;
+}
+
+.Model_Thinking {
+    color: #8E41CA;
+}
+
+.Collaborative_Learning {
+    color: #2CADB1;
+}
+
+.Questioning {
+    color: #4158CA;
+}
+
+.circles {
+    text-align: center;
+}
+
+.circle_texts {
+    color: #828282;
+}
+
+.Learning_Methods {
+    color: #141514;
+}
+
+.individual_circles {
+    box-shadow: 0px 19.3009px 36.1891px rgba(173, 173, 173, 0.1);
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+
+.Get_Ahead {
+    color: #E84D28;
+    text-align: center;
+}
+
+.Deadline_Apply {
+    color: #828282;
+    text-align: center;
+}

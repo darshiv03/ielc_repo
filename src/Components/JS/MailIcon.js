@@ -1,14 +1,16 @@
 import React from 'react';
+import "../CSS/MailIcon.css"
 
-export default function InstaIcon({size}) {
-
+export default function MailIcon({ size, color }) {
+    // SIZE: digit + "px" OR "rem" (the inputted prop MUST have a suffix)
+    // COLOR: can be a string or a hex code
+    
     return (
-        <img
-            style={{
-                width:`${size}`, 
-                height:`${size}`
-            }}
-            src={"/Mail.svg"}
-        />
+        <div style={{
+            width: `${size}`,
+            height: `${size}`,
+            backgroundColor: `${color}` 
+        }}
+        class="logo3"/>
     )
 }
