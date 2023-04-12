@@ -86,26 +86,6 @@ button {
     background-color: var(--primary);
 }
 
-button:nth-child(1) {
-    background-color: var(--primary);
-}
-
-button:nth-child(2) {
-    background-color: var(--secondary-yellow);
-}
-
-button:nth-child(3) {
-    background-color: var(--secondary-teal);
-}
-
-button:nth-child(4) {
-    background-color: var(--secondary-blue);
-}
-
-button:nth-child(5) {
-    background-color: #8E41CA;
-}
-
 .column:nth-child(2) {
     display: none;
 }

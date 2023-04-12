@@ -7,7 +7,7 @@
 }
 
 .grade5 {
-    background-color: var(--secondary-blue-light);
+    background-color: var(--purple);
     color: var(--creme-white);
     border: none;
 }
@@ -33,6 +33,6 @@
 .grade1 {
     border-style: solid;
     border-color: var(--primary);
-    color: var(--primary);
-    background-color: var(--creme-white);
+    color: var(--creme-white);
+    background-color: var(--primary);
 }

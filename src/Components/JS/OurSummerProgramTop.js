@@ -1,7 +1,7 @@
 import React from 'react';
 import { useParams } from 'react-router-dom';
 import "../CSS/OurSummerProgramTop.css"
-
+import Buttons from './Button';
 import programInfo from '../../data/programInfo'
 
 
@@ -43,11 +43,11 @@ export default function Program() {
                 <img src="/grade-finder-icon.png"></img>
                 <h1>Find Your Grade</h1>
                 <div class="button-wrapper">
-                    <button>Grade 1</button>
-                    <button>Grade 2</button>
-                    <button>Grade 3</button>
-                    <button>Grade 4</button>
-                    <button>Grade 5</button>
+                    <Buttons type = "grade1">Grade 1</Buttons>
+                    <Buttons type = "grade2">Grade 2</Buttons>
+                    <Buttons type = "grade3">Grade 3</Buttons>
+                    <Buttons type = "grade4">Grade 4</Buttons>
+                    <Buttons type = "grade5">Grade 5</Buttons>
                 </div>
             </div>
 

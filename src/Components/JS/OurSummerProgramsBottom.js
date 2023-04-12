@@ -4,7 +4,7 @@ import {ReactComponent as Ellipse1SVG} from "../../../src/Ellipse1.svg"
 import {ReactComponent as Ellipse2SVG} from "../../../src/Ellipse2.svg"
 import {ReactComponent as Ellipse3SVG} from "../../../src/Ellipse3.svg"
 import {ReactComponent as Ellipse4SVG} from "../../../src/Ellipse4.svg"
-
+import Buttons from './Button';
 export default function OurSummerProgramsBottom() {
 
     return (
@@ -46,7 +46,7 @@ export default function OurSummerProgramsBottom() {
 
             <div>
                 <h3 className='Get_Ahead'>Get Ahead, Stay Ahead</h3>
-                <button>Register a Student</button>
+                <Buttons width = "100%">Register a Student</Buttons>
                 <p className='Deadline_Apply p-medium'>Deadline to Apply: June 4th at 11:59 pm PST</p>
             </div>
 

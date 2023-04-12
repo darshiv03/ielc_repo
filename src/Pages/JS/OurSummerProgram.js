@@ -8,7 +8,7 @@ export default function OurSummerProgram() {
 
     return (
         <div>
-            <Header backgroundImage = "./programs.jpg"></Header>
+            {/* <Header backgroundImage = "./programs.jpg"></Header> */}
             <OurSummerProgramTop/>
             <OurSummerProgramsBottom/>
         </div>
