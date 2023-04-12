@@ -1,6 +1,5 @@
 import React from 'react';
-import "../CSS/Volunteer.css"
-
+import "../CSS/Volunteer.css";
 export default function Volunteer() {
 
     return (
@@ -13,16 +12,16 @@ export default function Volunteer() {
                 <p align="center" class="deadline-1">Deadline to Apply:<br></br>April 2nd at 11:50 pm PST</p>
                 <br></br>
                 <h1 align="center">Benefits</h1>
-                <ul>
+                <ul class="volunteer-ul">
                     <li class="volunteer-li">Contribute to Elementary Student Education</li>
-                    <li class="volunteer-li">Gain Leadership Experience</li>
+                    <li class="volunteer-li">Gain  Leadership Experience</li>
                     <li class="volunteer-li">Learn Effective Learning Strategies</li>
                     <li class="volunteer-li">Improve Organization Skills</li>
                     <li class="volunteer-li">Build Your Network</li>
                     <li class="volunteer-li">School Credit per Hour</li>
                     <li class="volunteer-li">Recommendation Letter</li>
                 </ul>
-                <h1 align="center">How It Works</h1>
+                <h1 class="how-it-works" align="center">How It Works</h1>
                 <h3 align="center" class="how-desc">Must be a high school or college student to apply</h3>
                 <div class="apply">
                     <div class="box box-1">
