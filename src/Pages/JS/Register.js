@@ -5,7 +5,7 @@ export default function Register() {
 
     return (
         <div>
-            <div class="container">
+            <div class="register-page-container">
                 <div class="intro">
                     <h3>Register A Student</h3>
                     <p>Fill out the form below to register a student. Once the student is registered, we will be sending our schedule to parents. <br></br>

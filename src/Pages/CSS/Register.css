@@ -1,3 +1,11 @@
+.register-page-container{
+    margin-right: 24px;
+    margin-left: 24px;
+    width: calc(100vw-48px);
+
+
+}
+
 .intro h3{
     color: var(--primary);
     font-size: 30px;
@@ -50,6 +58,8 @@ textarea{
     box-sizing: border-box;
     border: 2px solid;
     border-radius: 4px;
+    width: 100%;
+    font-family: 'Jost',sans-serif;
 }
     
 
@@ -61,7 +71,7 @@ textarea{
     margin-top: 16px;
     background-color: var(--primary);
     color: #ffffff;
-    border-color: var(--primary);
+    border:none;
 }
 
 .asterix{
@@ -73,6 +83,7 @@ textarea{
     font-weight: 400;
     font-size: 22px;
     line-height: 32px;
+    padding-left: 24px
 }
 
 .grade-level{
@@ -90,6 +101,7 @@ textarea{
     box-sizing: border-box;
     border: 2px solid;
     border-radius: 4px;
+    width: 100%;
 }
 
 .deadline{

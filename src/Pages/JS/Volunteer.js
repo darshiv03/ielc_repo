@@ -5,7 +5,7 @@ export default function Volunteer() {
 
     return (
         <div>
-            <div class="container">
+            <div class="volunteer-page-container">
             <div class="top-half">
                 <h1 align="center">Join Our Mission</h1>
                 <p class="top-half-p" align="center">IELC’s mission is to provide a more hands-on and interactive learning experience for students, rather than the lecture style lesson plans.</p>
@@ -14,28 +14,28 @@ export default function Volunteer() {
                 <br></br>
                 <h1 align="center">Benefits</h1>
                 <ul>
-                    <li>Contribute to Elementary Student Education</li>
-                    <li>Gain Leadership Experience</li>
-                    <li>Learn Effective Learning Strategies</li>
-                    <li>Improve Organization Skills</li>
-                    <li>Build Your Network</li>
-                    <li>School Credit per Hour</li>
-                    <li>Recommendation Letter</li>
+                    <li class="volunteer-li">Contribute to Elementary Student Education</li>
+                    <li class="volunteer-li">Gain Leadership Experience</li>
+                    <li class="volunteer-li">Learn Effective Learning Strategies</li>
+                    <li class="volunteer-li">Improve Organization Skills</li>
+                    <li class="volunteer-li">Build Your Network</li>
+                    <li class="volunteer-li">School Credit per Hour</li>
+                    <li class="volunteer-li">Recommendation Letter</li>
                 </ul>
                 <h1 align="center">How It Works</h1>
                 <h3 align="center" class="how-desc">Must be a high school or college student to apply</h3>
                 <div class="apply">
                     <div class="box box-1">
-                        <h1><span class="how-num">1</span>Apply</h1>
+                        <h1><div class="how-num">1</div>Apply</h1>
                         <p>Fill out the application form below and we'll notify you once you have been accepted.</p>
                     </div>
                     <div class="box box-sub">
-                        <h1><span class="how-num">2</span>Apply</h1>
+                        <h1><div class="how-num">2</div>Apply</h1>
                         <p>Attend tutor training and leadership team meetings.<br></br>
                         Reviw lesson plans and mock practice key teaching strategies.</p>
                     </div>
                     <div class="box box-sub">
-                        <h1><span class="how-num">3</span>Apply</h1>
+                        <h1><div class="how-num">3</div>Apply</h1>
                         <p>Attend tutor training and leadership team meetings.<br></br>Reviw lesson plans and mock practice key teaching strategies.</p>
                     </div>
                 </div>
