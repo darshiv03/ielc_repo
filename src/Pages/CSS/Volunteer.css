@@ -6,6 +6,13 @@
 
 }
 
+
+.become-a-tutor-container{
+    margin-right: 24px;
+    margin-left: 24px;
+    width: calc(100vw - 48px);
+}
+
 body{
     background-color: #f5f5f5;
 }
@@ -17,11 +24,11 @@ body{
     font-weight: 700;
     }
 
-    .duration{
+.duration{
         font-weight: 700;
     }
     
-    .intro p{
+.intro p{
         font-size: 18px;
         line-height: 28px;
         font-weight: 500;
@@ -99,6 +106,14 @@ textarea{
     font-weight: 500;
     font-size: 22px;
     line-height: 33px;
+}
+
+.gray-select{
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 26px;
+    color: var(--gray500);
+    margin-top: 0px;
 }
 
 .form-1 input[type='text']{
@@ -250,3 +265,131 @@ h1{
     height: 1000px;
 }
 
+@media only screen and (min-width: 768px) {
+/* for desktop */
+.mob-top{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.mob-top h1{
+    line-height: 55px;
+}
+
+.mission{
+    width: 334px;
+}
+
+.benifits h1{
+    text-align: left;
+}
+
+.app-tut{
+    display: none;
+}
+
+.apply{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.box{
+    width: 1104px;
+    height: 264px;
+}
+
+.box-1 h1{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    line-height: 55px;
+}
+
+.box-sub h1{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    line-height: 55px;
+}
+
+.box-1 p{
+    text-align: center;
+}
+
+.box-sub p{
+    text-align: center;
+}
+
+.how-num{
+    margin: 10px;
+    height: 64px;
+    width: 64px;
+}
+
+.desk-h1{
+    margin: 10px;
+}
+
+.submit-button{
+    margin-top: 104px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.sbm{
+    width: 573px;
+}
+
+/*become a tutor*/
+
+.become-a-tutor-container{
+    margin-right: 24px;
+    margin-left: 24px;
+    width: calc(100vw - 48px);
+}
+
+.intro{
+    margin: auto;
+    width: 973px;
+}
+
+.form-1{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin: auto;
+    width: 1000px;
+    justify-content: space-between;
+}
+
+.labelinput{
+    width: 450px;
+}
+
+.grade-form{
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    width: 1000px;
+}
+
+
+.comments{
+    width: 1000px;
+    margin: auto;
+}
+
+.submit-vol{
+    display: flex;
+    justify-content: center;
+}
+
+.gradeselect{
+    margin: auto;
+    width: 1000px;
+}
+
+}
