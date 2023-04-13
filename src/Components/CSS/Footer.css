@@ -64,7 +64,7 @@ p {
 }
 
 .footer {
-    padding-bottom: 10%;
+    padding-bottom: 55px;
     justify-content: flex-end;
     align-items: center;
 }

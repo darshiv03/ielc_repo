@@ -4,6 +4,8 @@
 /* global css variables */
 @media (prefers-color-scheme: light) {
     html {
+        --textPrimary: black;
+        --textWhite: white;
         --primary: #E84D28;
         --primary-light: #FF9272;
         --secondary-blue: #4158CA;
@@ -20,7 +22,7 @@
         --gray400: #AAAAAA;
         --gray500: #828282;
         --gray600: #3B3D3B;
-        --gray700: #030F2D;
+        --gray700: #141514;
         --dark: #3B3D3B;
     }
 
@@ -32,13 +34,15 @@
 
 @media (prefers-color-scheme: dark) {
     html {
-        --primary: #EF8269;
+        --textPrimary: white;
+        --textWhite: white;
+        --primary: #E84D28;
         --primary-light: #FF9272;
-        --secondary-blue: #8D9BDF;
+        --secondary-blue: #4158CA;
         --secondary-blue-light: #8695DD;
-        --secondary-yellow: #F6B626;
+        --secondary-yellow: #FED74C;
         --secondary-yellow-light: #FFE68D;
-        --secondary-teal: #41B5B9;
+        --secondary-teal: #2CADB1;
         --secondary-teal-light: #AADADC;
 
         --creme-white: #FCFBFA;
@@ -48,6 +52,7 @@
         --gray400: #AAAAAA;
         --gray500: #828282;
         --gray600: #3B3D3B;
+        --gray700: #141514;
         --dark: #3B3D3B;
     }
 
