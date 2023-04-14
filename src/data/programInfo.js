@@ -2,12 +2,6 @@ const programInfo = [
     {
         grade: 1,
 
-        color: "var(--grade-red)",
-
-        background: "var(--grade-red-light)",
-
-        url: "/program/1",
-
         mainHeading: "Designed to prepare &\nreinforce literacy concepts.",
 
         description: "Our tutors prepare students from grades 1 to 5 with reading comprehension and grammar skills in accordance with the Common Core Standards in 60-minute sessions conducted over Zoom.",
@@ -32,12 +26,6 @@ const programInfo = [
     },
     {
         grade: 2,
-
-        color: "var(--grade-yellow)",
-
-        background: "var(--grade-yellow-light)",
-
-        url: "/program/2",
         
         mainHeading: "Designed to prepare & reinforce literacy concepts.",
 
@@ -64,13 +52,6 @@ const programInfo = [
     {
         grade: 3,
 
-        color: "var(--grade-green)",
-
-        background: "var(--grade-green-light)",
-
-        url: "/program/3",
-
-
         mainHeading: "Designed to prepare & reinforce literacy concepts.",
 
         description: "Our tutors prepare students from grades 1 to 5 with reading comprehension and grammar skills in accordance with the Common Core Standards in 60-minute sessions conducted over Zoom.",
@@ -96,13 +77,6 @@ const programInfo = [
     {
         grade: 4,
 
-        color: "var(--grade-blue)",
-
-        background: "var(--grade-blue-light)",
-
-        url: "/program/4",
-
-
         mainHeading: "Designed to prepare & reinforce literacy concepts.",
 
         description: "Our tutors prepare students from grades 1 to 5 with reading comprehension and grammar skills in accordance with the Common Core Standards in 60-minute sessions conducted over Zoom.",
@@ -127,12 +101,6 @@ const programInfo = [
     },
     {
         grade: 5,
-
-        color: "var(--grade-purple)",
-
-        background: "var(--grade-purple-light)",
-
-        url: "/program/5",
 
         mainHeading: "Designed to prepare & reinforce literacy concepts.",
 
