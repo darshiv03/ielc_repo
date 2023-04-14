@@ -67,13 +67,10 @@
 
 :root {
     font-family: 'Jost', sans-serif;
-    box-sizing: border-box;
 }
 
 
-h1,
-h2,
-h3 {
+h1, h2, h3 {
     font-family: 'Manrope', sans-serif;
     font-style: normal;
 }
@@ -93,9 +90,7 @@ h3 {
     line-height: 2.125rem;
 }
 
-
-p,
-.p-large {
+p, .p-large {
     font-family: 'Jost', sans-serif;
     font-size: 1.375rem;
     line-height: 2rem;

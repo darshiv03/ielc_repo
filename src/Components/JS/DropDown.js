@@ -1,8 +1,7 @@
 import React from 'react';
-import "../CSS/Navbar.css"
+import "../CSS/DropDown.css"
 
-
-export default function NavBar() {
+export default function DropDown() {
 
     return (
         <div>
