@@ -20,6 +20,21 @@ html {
     --gray500: #828282;
     --gray600: #3B3D3B;
     --dark: #3B3D3B;
+
+    --grade-red: #E84D28;
+    --grade-red-light: #FF927233;
+    --grade-yellow: #F6B626;
+    --grade-yellow-light: #FFE68D80;
+    --grade-green: #2CADB1;
+    --grade-green-light: #AADADC33;
+    --grade-blue: #4158CA;
+    --grade-blue-light: #8695DD33;
+    --grade-purple: #8E41CA;
+    --grade-purple-light: #8E41CA33;
+
+
+
+
 }
 
 :root {

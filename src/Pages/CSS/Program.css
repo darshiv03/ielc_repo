@@ -90,7 +90,6 @@ h3, p {
 .registration > button {
   border-style: none;
   border-radius: 8px;
-  background-color: none;
   color: var(--creme-white);
   font-family: 'Manrope', sans-serif;
   font-size: 1.25rem;
