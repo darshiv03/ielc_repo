@@ -270,7 +270,7 @@ h1{
 .mob-top{
     display: flex;
     flex-direction: row;
-    justify-content: space-around;
+    justify-content: space-evenly;
 }
 
 .mob-top h1{
@@ -278,7 +278,15 @@ h1{
 }
 
 .mission{
-    width: 334px;
+    width: 30%;
+}
+
+.top-half-p{
+    text-align: left;
+}
+
+.benifits{
+    width: 30%;
 }
 
 .benifits h1{
@@ -296,8 +304,9 @@ h1{
 }
 
 .box{
-    width: 1104px;
     height: 264px;
+    width: 70%;
+
 }
 
 .box-1 h1{
@@ -340,7 +349,7 @@ h1{
 }
 
 .sbm{
-    width: 573px;
+    width: 35%;
 }
 
 /*become a tutor*/
@@ -353,7 +362,7 @@ h1{
 
 .intro{
     margin: auto;
-    width: 973px;
+    width: 75%;
 }
 
 .form-1{
@@ -361,24 +370,24 @@ h1{
     flex-direction: row;
     flex-wrap: wrap;
     margin: auto;
-    width: 1000px;
+    width: 75%;
     justify-content: space-between;
 }
 
 .labelinput{
-    width: 450px;
+    width: 40%;
 }
 
 .grade-form{
     display: flex;
     flex-direction: column;
     margin: auto;
-    width: 1000px;
+    width: 75%;
 }
 
 
 .comments{
-    width: 1000px;
+    width: 75%;
     margin: auto;
 }
 
@@ -389,7 +398,7 @@ h1{
 
 .gradeselect{
     margin: auto;
-    width: 1000px;
+    width: 75%;
 }
 
 }
