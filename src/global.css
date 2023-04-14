@@ -1,49 +1,74 @@
 /* Import fonts from google */
-@import url('https://fonts.googleapis.com/css2?family=Jost:ital@0;1&family=Manrope:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Jost:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;1,100;1,200;1,300;1,400;1,500;1,600;1,700&family=Manrope:wght@200;300;400;500;600;700;800&display=swap');
 
 /* global css variables */
-html {
-    --primary: #E84D28;
-    --primary-light: #FF9272;
-    --secondary-blue: #4158CA;
-    --secondary-blue-light: #8695DD;
-    --secondary-yellow: #FED74C;
-    --secondary-yellow-light: #FFE68D;
-    --secondary-teal: #2CADB1;
-    --secondary-teal-light: #AADADC;
+@media (prefers-color-scheme: light) {
+    html {
+        --textPrimary: black;
+        --textWhite: white;
+        --primary: #E84D28;
+        --primary-light: #FF9272;
+        --secondary-blue: #4158CA;
+        --secondary-blue-light: #8695DD;
+        --secondary-yellow: #FED74C;
+        --secondary-yellow-light: #FFE68D;
+        --purple: #8E41CA;
+        --secondary-teal: #2CADB1;
+        --secondary-teal-light: #AADADC;
 
-    --creme-white: #FCFBFA;
-    --gray-100: #E6E6E6;
-    --gray-200: #CECFCD;
-    --gray300: #C8C8C8;
-    --gray400: #AAAAAA;
-    --gray500: #828282;
-    --gray600: #3B3D3B;
-    --dark: #3B3D3B;
+        --creme-white: #FCFBFA;
+        --gray-100: #E6E6E6;
+        --gray-200: #CECFCD;
+        --gray300: #C8C8C8;
+        --gray400: #AAAAAA;
+        --gray500: #828282;
+        --gray600: #3B3D3B;
+        --gray700: #141514;
+        --dark: #3B3D3B;
+    }
 
-    --grade-red: #E84D28;
-    --grade-red-light: #FF927233;
-    --grade-yellow: #F6B626;
-    --grade-yellow-light: #FFE68D80;
-    --grade-green: #2CADB1;
-    --grade-green-light: #AADADC33;
-    --grade-blue: #4158CA;
-    --grade-blue-light: #8695DD33;
-    --grade-purple: #8E41CA;
-    --grade-purple-light: #8E41CA33;
-
-
-
-
+    body {
+        background-color: #FFFFFF;
+        margin: 0;
+    }
 }
+
+@media (prefers-color-scheme: dark) {
+    html {
+        --textPrimary: white;
+        --textWhite: white;
+        --primary: #E84D28;
+        --primary-light: #FF9272;
+        --secondary-blue: #4158CA;
+        --secondary-blue-light: #8695DD;
+        --secondary-yellow: #FED74C;
+        --secondary-yellow-light: #FFE68D;
+        --secondary-teal: #2CADB1;
+        --secondary-teal-light: #AADADC;
+
+        --creme-white: #FCFBFA;
+        --gray-100: #E6E6E6;
+        --gray-200: #CECFCD;
+        --gray300: #C8C8C8;
+        --gray400: #AAAAAA;
+        --gray500: #828282;
+        --gray600: #3B3D3B;
+        --gray700: #141514;
+        --dark: #3B3D3B;
+    }
+
+    body {
+        background-color: var(--gray700);
+        margin: 0;
+
+    }
+}
+
 
 :root {
     font-family: 'Jost', sans-serif;
 }
 
-body {
-    margin: 0;
-}
 
 h1, h2, h3 {
     font-family: 'Manrope', sans-serif;
@@ -79,4 +104,87 @@ p, .p-large {
 .p-small {
     font-size: 1rem;
     line-height: 1.4375rem;
+}
+
+button {
+    height: auto;
+    width: 342px;
+    padding: 16px 24px;
+    border-radius: 5px;
+    text-align: center;
+    font-family: 'Manrope';
+    font-style: normal;
+    font-weight: 700;
+    font-size: auto;
+}
+
+label {
+    font-family: 'Jost';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 1.375rem;
+    line-height: 2rem;
+    color: var(--gray600);
+}
+
+.required:after {
+    content: " *";
+    color: var(--primary);
+}
+
+input {
+    margin-top: 10px;
+    margin-bottom: 40px;
+    padding: 12px 20px;
+
+    width: calc(100% - 48px);
+    height: 2rem;
+    font-family: 'Jost';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 1.375rem;
+    line-height: 2rem;
+    color: var(--gray200);
+    border: solid 1.27px var(--gray400);
+    border-radius: 5.1px;
+}
+
+textarea {
+    height: 150px;
+    width: calc(100% - 48px);
+    padding: 12px 20px;
+    margin: 8px 0;
+
+    font-family: 'Jost';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 1.375rem;
+    line-height: 2rem;
+    resize: none;
+    border: solid 1.27px var(--gray400);
+    border-radius: 5.1px;
+}
+
+input::placeholder {
+    color: var(--gray-200);
+}
+
+textarea::placeholder {
+    color: var(--gray-200);
+}
+
+input[type="submit"] {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 65px;
+    background: var(--primary);
+    border-radius: 8px;
+    cursor: pointer;
+    color: var(--creme-white);
+    border: none;
+    margin-top: 50px;
+    margin-bottom: 0px;
 }

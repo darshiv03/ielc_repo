@@ -1,0 +1,38 @@
+.small {
+    width: 120px;
+}
+
+.large {
+    width: 342px;
+}
+
+.grade5 {
+    background-color: var(--purple);
+    color: var(--creme-white);
+    border: none;
+}
+
+.grade4 {
+    background-color: var(--secondary-blue);
+    color: var(--creme-white);
+    border: none;
+}
+
+.grade3 {
+    background-color: var(--secondary-teal);
+    color: var(--creme-white);
+    border: none;
+}
+
+.grade2 {
+    background-color: var(--secondary-yellow);
+    color: var(--creme-white);
+    border: none;
+}
+
+.grade1 {
+    border-style: solid;
+    border-color: var(--primary);
+    color: var(--creme-white);
+    background-color: var(--primary);
+}

@@ -19,10 +19,11 @@ function App() {
           <Route path = "/" element = {<HomePage/>}></Route>
           <Route path = "/about-us" element = {<AboutUs/>}></Route>
           <Route path = "/contact-us" element = {<ContactUs/>}></Route>
-          <Route path = "/program/:gradeLevel" element = {<Program/>}></Route>
+          <Route path = "/program/:gradeLevel" element = {<Program color = "#E84D28" backgroundColor = "rgba(255, 146, 114, 0.2)"/>}></Route>
           <Route path = "/register" element = {<Register/>}></Route>
           <Route path = "/volunteer" element = {<Volunteer/>}></Route>
           <Route path = "/components" element = {<Components/>}></Route>
+          <Route path = "/our-summer-programs" element = {<OurSummerProgram/>}></Route>
         </Routes>
       <Footer/>
     </div>

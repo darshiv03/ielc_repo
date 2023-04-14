@@ -5,11 +5,26 @@ li, .program-header > p, .tutor-section > p, .deadline {
 .goals-heading, .tutorSchool {
   color: #3B3D3B;
 }
+
+
 /* DESKTOP STYLING */
 .main-heading {
   font-size: 2em;
 }
-.image {
+
+/* Need to add the following 2 classes because the li and ul classNames in dropdownmenu.css are conflicting with the li and ul tags in program.js */
+.program-page-ul {
+  padding-left: 40px;
+  width: initial;
+}
+.program-page-li{
+  text-align: initial;
+  padding-top: 0;
+  padding-bottom: 0;
+}
+
+
+.program-page-image {
   width: 100%;
   height: auto;
 }
@@ -112,7 +127,6 @@ h3, p {
 .grade-button {
   border-style: none;
   border-radius: 8px;
-  background-color: none;
   color: var(--creme-white);
   font-family: 'Manrope', sans-serif;
   font-size: 1.25rem;
@@ -120,6 +134,7 @@ h3, p {
   padding: 0.75em 4rem;
   margin: 0 5px;
   flex-shrink: 1;
+  width: initial;
 }
 .deadline {
   font-family: 'Manrope', sans-serif;
@@ -128,6 +143,8 @@ h3, p {
   line-height: 1.625rem;
   text-align: center;
 }
+
+/* Mobile styling */
 @media  screen and (max-width: 768px) {
 /*PROGRAM HEADER: content at top of page */
 .component {

@@ -1,0 +1,169 @@
+.our-summer-page-top-text-container {
+    margin-left: 24px;
+    margin-right: 24px;
+    width: calc(100%-48px);
+}
+
+.image-1 {
+    position: relative;
+    width: 100%;
+}
+
+.image-1 img {
+    width: 100%;
+    height: auto;
+}
+
+.image-text {
+    color: var(--creme-white);
+    position: absolute;
+    z-index: 1;
+    bottom: 1.25rem;
+    margin-left: 24px;
+}
+
+.save-spot {
+    margin-bottom: 2rem;
+}
+
+.image-subtext {
+    color: var(--creme-white);
+    position: absolute;
+    z-index: 1;
+    bottom: 0;
+    line-height: 1.2;
+    margin-left: 24px;
+}
+
+.image-1 p {
+    border-top: 10rem;
+}
+
+.text p {
+    color: var(--gray500)
+}
+
+.red {
+    text-align: center;
+    font-size: 1.125rem;
+    color: var(--primary)
+}
+
+.grade-finder {
+    background: rgba(255, 146, 114, 0.2);
+    text-align: center;
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+    width: 100vw;
+}
+
+.image-2{
+    width: 100%;
+    height: auto;
+}
+
+.our-summer-page-bottom-text-container {
+    margin-left: 24px;
+    margin-right: 24px;
+    width: calc(100%-48px);
+}
+
+.our-summer-page-bottom-text-container h3 {
+    font-size: 1.875rem;
+}
+
+.our-summer-page-bottom-text-container p{
+    color: var(--gray500)
+}
+
+/* temporary button css until button component exists */
+.button-wrapper {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    gap: 10px;
+}
+
+button {
+    margin: 0.1rem;
+    color: white;
+    font-family: 'Jost';
+    padding: 1rem 1.5rem;
+    width: 80%;
+    border: none;
+    font-size: 1.5rem;
+    border-radius: 0.5rem;
+    background-color: var(--primary);
+}
+
+.column:nth-child(2) {
+    display: none;
+}
+
+@media screen and (min-width: 760px) {
+    .image-1 img {
+      max-height: 60vh;
+      object-fit: cover;
+    }
+
+    .image-text {
+        left: 5rem;
+        bottom: 6rem;
+    }
+
+    .image-text br {
+        display: none;
+    } 
+    
+    .image-subtext {
+        bottom: 4rem;
+        left: 5rem;
+        line-height: 1.2;
+    }
+
+    .our-summer-page-bottom-text-container {
+        display: none;
+    }
+
+    .save-spot .button-wrapper {
+        flex-direction: column;
+    }
+
+    .save-spot .button-wrapper button {
+        width: 35%;
+    }
+
+    .save-spot {
+        margin-bottom: 8rem;
+    }
+
+    .button-wrapper {
+        flex-direction: row;
+        padding: 0% 5%;
+    }
+
+    .text {
+        display: flex;
+        flex-direction: row;
+    }
+
+    .column {
+        flex-basis: 50%;
+        padding: 5rem;
+    }
+
+    .column h3 {
+        font-size: 40px;
+        line-height: 55px;
+    }
+
+    .column:nth-child(2) {
+        display: block;
+        padding-left: 0rem;
+    }
+
+    .grade-finder img {
+        width: 3rem;
+        margin: 0 auto;
+    }
+  }

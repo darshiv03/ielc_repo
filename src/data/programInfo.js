@@ -26,7 +26,9 @@ const programInfo = [
 
         register_bttn: "Save your Free Spot", 
 
-        deadline: "Deadline to Apply:\n June 4th at 11:59 pm PST"
+        deadline: "Deadline to Apply:\n June 4th at 11:59 pm PST",
+
+        color: "#E84D28"
     },
     {
         grade: 2,
@@ -55,8 +57,9 @@ const programInfo = [
 
         register_bttn: "Save your Free Spot", 
 
-        deadline: "Deadline to Apply:\n June 4th at 11:59 pm PST"
+        deadline: "Deadline to Apply:\n June 4th at 11:59 pm PST",
 
+        color: "#F6B626"
     },
     {
         grade: 3,
@@ -86,7 +89,9 @@ const programInfo = [
 
         register_bttn: "Save your Free Spot", 
 
-        deadline: "Deadline to Apply:\n June 4th at 11:59 pm PST"
+        deadline: "Deadline to Apply:\n June 4th at 11:59 pm PST",
+
+        color: "#2CADB1"
     },
     {
         grade: 4,
@@ -116,7 +121,9 @@ const programInfo = [
 
         register_bttn: "Save your Free Spot", 
 
-        deadline: "Deadline to Apply:\n June 4th at 11:59 pm PST"
+        deadline: "Deadline to Apply:\n June 4th at 11:59 pm PST",
+
+        color: "#4158CA"
     },
     {
         grade: 5,
@@ -145,7 +152,9 @@ const programInfo = [
 
         register_bttn: "Save your Free Spot", 
 
-        deadline: "Deadline to Apply:\n June 4th at 11:59 pm PST"
+        deadline: "Deadline to Apply:\n June 4th at 11:59 pm PST",
+
+        color: "#8E41CA"
     }
 ]
 

@@ -12,22 +12,24 @@ import {Link} from 'react-router-dom';
 
 export default function Program() {
     // Get the gradeLevel param from the URL.
+
     let { gradeLevel } = useParams();
 
     const data = programInfo[gradeLevel - 1];
 
     const goals = data.learningGoals.map((goal, index) => {
         return (
-            <li key={index}>{goal}</li>
+            <li className='program-page-li' key={index}>{goal}</li>
         );
     });
     let otherGrades = [];
     for (let i = 0; i < programInfo.length; i++) {
         if (i !== gradeLevel - 1) {
-            otherGrades.push(programInfo[i].grade)
+            otherGrades.push(programInfo[i])
         }
     }
     const gradeButtons = otherGrades.map((grade, index) => {
+        let c = grade.color;
         return (
             
             <Link to={programInfo[grade-1].url}><button class="grade-button" key={index}>Grade {grade}</button></Link>
@@ -36,7 +38,7 @@ export default function Program() {
     });
     return (
         <div>
-            <img src={student_img} alt="Student raising their hand in classroom" class="image"/>
+            <img src={student_img} alt="Student raising their hand in classroom" class="program-page-image"/>
             <div class="component">
                 <section class="program-header">
                     <h1 style={{color: data.color}} class="grade-text">Grade {gradeLevel}</h1>    
@@ -67,5 +69,4 @@ export default function Program() {
             </section>
         </div>
     )
-
 }
