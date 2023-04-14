@@ -4,6 +4,8 @@ import "../CSS/Program.css"
 import student_img from './student-class.jpeg'
 import tutor_img from './tutor-portrait.jpg'
 import programInfo from '../../data/programInfo'
+import {Link} from 'react-router-dom';
+
 
 
 
@@ -27,7 +29,9 @@ export default function Program() {
     }
     const gradeButtons = otherGrades.map((grade, index) => {
         return (
-            <button class="grade-button" key={index}>Grade {grade}</button>
+            
+            <Link to={programInfo[grade-1].url}><button class="grade-button" key={index}>Grade {grade}</button></Link>
+            
         );
     });
     return (
