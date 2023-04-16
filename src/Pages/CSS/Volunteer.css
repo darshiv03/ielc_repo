@@ -1,0 +1,417 @@
+.volunteer-page-container{
+    margin-right: 24px;
+    margin-left: 24px;
+    width: calc(100vw - 48px);
+
+
+}
+
+
+.become-a-tutor-container{
+    margin-right: 24px;
+    margin-left: 24px;
+    width: calc(100vw - 48px);
+}
+
+body{
+    background-color: #f5f5f5;
+}
+
+.intro h3{
+    color:var(--primary);
+    font-size: 30px;
+    line-height: 44px;
+    font-weight: 700;
+    }
+
+.duration{
+        font-weight: 700;
+    }
+    
+.intro p{
+        font-size: 18px;
+        line-height: 28px;
+        font-weight: 500;
+        color: var(--gray600)
+    }
+
+h4{
+    font-weight: 900;
+}
+
+.bolden{
+    color: var(--primary);
+    font-weight: 800; 
+    line-height: 28px;
+    font-size: 18px;           
+}
+
+.form-1 label{
+    font-weight: 500;
+    font-size: 22px;
+    line-height: 32px;
+}
+
+
+.group{
+    color: var(--gray500);
+    font-size: 18px;
+    line-height: 27px;
+    font-weight: 400;
+}
+
+.how-it-works{
+    margin-top: 100px;
+}
+
+textarea{
+    color:var(--gray-200);
+    font-size: 22px;
+    line-height: 32px;
+    font-weight: 400;
+    padding: 12px 20px;
+    box-sizing: border-box;
+    border: 2px solid;
+    border-radius: 4px;
+}
+    
+
+.sbm{
+    width: 100%;
+    padding-left: 24px;
+    padding-top: 16px;
+    padding-right: 24px;
+    padding-bottom: 16px;    
+    border-radius: 8px;
+    font-size: 24px;
+    line-height: 32px;
+    margin-top: 16px;
+    background-color: var(--primary);
+    color: #ffffff;
+    border-color: var(--primary);
+}
+
+.asterix{
+    color: var(--primary);
+}
+
+.label-color{
+    color: var(--dark);
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 32px;
+}
+
+.grade-level{
+    font-weight: 500;
+    font-size: 22px;
+    line-height: 33px;
+}
+
+.gray-select{
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 26px;
+    color: var(--gray500);
+    margin-top: 0px;
+}
+
+.form-1 input[type='text']{
+    color: var(--gray-200);
+    font-size: 22px;
+    line-height: 32px;
+    font-weight: 400;
+    padding: 12px 20px;
+    box-sizing: border-box;
+    border: 2px solid;
+    border-radius: 4px;
+}
+
+.deadline{
+    color: var(--gray500);
+    font-size: 18px;
+    font-weight: 700px;
+    line-height: 25px;
+}
+
+.icon-pencil{
+    height: 16.79px;
+    width: 16.79px;
+    margin-top: 7.75px;
+    margin-left: 6.46px;
+}
+
+h1{
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 43.71px;
+}
+
+.top-half-p{
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 31.79px;
+    color: var(--gray500)
+}
+
+.deadline-1{
+    color: var(--primary);
+    font-size: 18px;
+    font-weight: 700px;
+    line-height: 25px;
+}
+
+.volunteer-ul{
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+.volunteer-li{
+    display: block;
+    font-size: 22px;
+    line-height: 31.79px;
+    font-weight: 400;
+    color: var(--gray500);
+    background-image: url(../../../src/pencil.svg);
+    background-repeat: no-repeat;
+    background-position: left;
+    padding-left: 35px;
+}
+
+.how-desc{
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 31.79px;
+    color: var(--primary);
+}
+
+.box-1{
+    background-color: var(--primary);
+}
+
+.how-num{
+    display: flex;
+    background-color: var(--primary-light
+    );
+    border-radius: 50%;
+    width: 34px;
+    height: 34px;
+    padding: 10px;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-right: 10px;
+}
+
+.box-sub .how-num{
+    background: rgba(255, 146, 114, 0.2);
+}
+
+.box h1{
+    font-size: 32px;
+    font-weight: 700;
+    color: #ffffff;
+    line-height: 43.71px;
+    
+
+}
+
+.box-1 p{
+    font-size: 18px;
+    color: #ffffff;
+    font-weight: 400;
+    line-height: 26px;
+}
+
+.box-sub h1{
+    color: var(--primary);
+    font-size: 32px;
+    font-weight: 700;
+    line-height: 43.71px;
+    display: flex;
+    flex-direction: row;
+}
+
+.box-1 h1{
+    display: flex;
+    flex-direction: row;
+    margin: 0px;
+}
+
+.box-sub p{
+    font-size: 18px;
+    color: var(--primary);
+    font-weight: 400;
+    line-height: 26px;
+}
+
+.box p{
+    margin-bottom: 0px;
+}
+
+.box {
+    border-radius: 20px;
+    padding: 40px 34px 40px 34px;
+    margin-top: 15px;
+    box-shadow: 0px 19.3009px 36.1891px rgba(173, 173, 173, 0.1);
+}
+
+.box-sub{
+    background-color:#ffffff;
+}
+
+.pencil{
+    height: 1000px;
+}
+
+@media only screen and (min-width: 768px) {
+/* for desktop */
+.mob-top{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+.mob-top h1{
+    line-height: 55px;
+}
+
+.mission{
+    width: 30%;
+}
+
+.top-half-p{
+    text-align: left;
+}
+
+.benifits{
+    width: 30%;
+}
+.volunteer-li{
+    text-align: left;
+    padding-top:0px;
+    padding-bottom: 0px;
+}
+
+.benifits h1{
+    text-align: left;
+}
+
+.app-tut{
+    display: none;
+}
+
+.apply{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.box{
+    height: 264px;
+    width: 70%;
+
+}
+
+.box-1 h1{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    line-height: 55px;
+}
+
+.box-sub h1{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    line-height: 55px;
+}
+
+.box-1 p{
+    text-align: center;
+}
+
+.box-sub p{
+    text-align: center;
+}
+
+.how-num{
+    margin: 10px;
+    height: 64px;
+    width: 64px;
+}
+
+.desk-h1{
+    margin: 10px;
+}
+
+.submit-button{
+    margin-top: 104px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.sbm{
+    width: 35%!important;
+}
+
+/*become a tutor*/
+
+.become-a-tutor-container{
+    margin-right: 24px;
+    margin-left: 24px;
+    width: calc(100vw - 48px);
+}
+
+.intro{
+    margin: auto;
+    width: 75%;
+}
+
+.form-1{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin: auto;
+    width: 75%;
+    justify-content: space-between;
+}
+
+.labelinput{
+    width: 40%;
+}
+
+.grade-form{
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    width: 75%;
+}
+
+
+.comments{
+    width: 75%;
+    margin: auto;
+}
+
+.submit-vol{
+    display: flex;
+    justify-content: center;
+}
+
+.gradeselect{
+    margin: auto;
+    width: 75%;
+}
+
+.input-register{
+        margin-top: inherit;
+        margin-bottom: inherit;
+        padding: inherit;
+        width: inherit;
+        height: inherit;
+}
+
+}
