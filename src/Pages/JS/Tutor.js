@@ -76,7 +76,7 @@ export default function Tutor() {
                     <h4 class="grade-level">Do you have any additional comments or questions?<br></br></h4>
                     <textarea id="txtArea" rows="7" cols="35" value="Type here"></textarea>
                     <div class="submit-vol">
-                        <input type="submit" class="sbm" value="Submit Registration"></input>
+                        <input type="submit" class="volunteer-sbm" value="Submit Registration"></input>
                     </div>
                     <p align="center" class="deadline">Deadline to Apply:<br></br>April 2nd at 11:59 pm PST</p>
                 </div>
