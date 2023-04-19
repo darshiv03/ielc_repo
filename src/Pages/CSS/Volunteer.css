@@ -2,41 +2,10 @@
     margin-right: 24px;
     margin-left: 24px;
     width: calc(100vw - 48px);
-
-
-}
-
-
-.become-a-tutor-container{
-    margin-right: 24px;
-    margin-left: 24px;
-    width: calc(100vw - 48px);
 }
 
 body{
     background-color: #f5f5f5;
-}
-
-.intro h3{
-    color:var(--primary);
-    font-size: 30px;
-    line-height: 44px;
-    font-weight: 700;
-    }
-
-.duration{
-        font-weight: 700;
-    }
-    
-.intro p{
-        font-size: 18px;
-        line-height: 28px;
-        font-weight: 500;
-        color: var(--gray600)
-    }
-
-h4{
-    font-weight: 900;
 }
 
 .bolden{
@@ -46,36 +15,10 @@ h4{
     font-size: 18px;           
 }
 
-.form-1 label{
-    font-weight: 500;
-    font-size: 22px;
-    line-height: 32px;
-}
-
-
-.group{
-    color: var(--gray500);
-    font-size: 18px;
-    line-height: 27px;
-    font-weight: 400;
-}
-
 .how-it-works{
     margin-top: 100px;
 }
-
-textarea{
-    color:var(--gray-200);
-    font-size: 22px;
-    line-height: 32px;
-    font-weight: 400;
-    padding: 12px 20px;
-    box-sizing: border-box;
-    border: 2px solid;
-    border-radius: 4px;
-}
     
-
 .sbm{
     width: 100%;
     padding-left: 24px;
@@ -89,49 +32,6 @@ textarea{
     background-color: var(--primary);
     color: #ffffff;
     border-color: var(--primary);
-}
-
-.asterix{
-    color: var(--primary);
-}
-
-.label-color{
-    color: var(--dark);
-    font-weight: 400;
-    font-size: 22px;
-    line-height: 32px;
-}
-
-.grade-level{
-    font-weight: 500;
-    font-size: 22px;
-    line-height: 33px;
-}
-
-.gray-select{
-    font-size: 18px;
-    font-weight: 400;
-    line-height: 26px;
-    color: var(--gray500);
-    margin-top: 0px;
-}
-
-.form-1 input[type='text']{
-    color: var(--gray-200);
-    font-size: 22px;
-    line-height: 32px;
-    font-weight: 400;
-    padding: 12px 20px;
-    box-sizing: border-box;
-    border: 2px solid;
-    border-radius: 4px;
-}
-
-.deadline{
-    color: var(--gray500);
-    font-size: 18px;
-    font-weight: 700px;
-    line-height: 25px;
 }
 
 .icon-pencil{
@@ -177,6 +77,9 @@ h1{
     background-repeat: no-repeat;
     background-position: left;
     padding-left: 35px;
+    padding-top: 0px;
+    padding-bottom: 10px;
+    text-align: left;
 }
 
 .how-desc{
@@ -213,8 +116,6 @@ h1{
     font-weight: 700;
     color: #ffffff;
     line-height: 43.71px;
-    
-
 }
 
 .box-1 p{
@@ -263,6 +164,14 @@ h1{
 
 .pencil{
     height: 1000px;
+}
+
+.input-register{
+    margin-top: inherit;
+    margin-bottom: inherit;
+    padding: inherit;
+    width: inherit;
+    height: inherit;
 }
 
 @media only screen and (min-width: 768px) {
@@ -356,62 +265,4 @@ h1{
 .sbm{
     width: 35%!important;
 }
-
-/*become a tutor*/
-
-.become-a-tutor-container{
-    margin-right: 24px;
-    margin-left: 24px;
-    width: calc(100vw - 48px);
-}
-
-.intro{
-    margin: auto;
-    width: 75%;
-}
-
-.form-1{
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    margin: auto;
-    width: 75%;
-    justify-content: space-between;
-}
-
-.labelinput{
-    width: 40%;
-}
-
-.grade-form{
-    display: flex;
-    flex-direction: column;
-    margin: auto;
-    width: 75%;
-}
-
-
-.comments{
-    width: 75%;
-    margin: auto;
-}
-
-.submit-vol{
-    display: flex;
-    justify-content: center;
-}
-
-.gradeselect{
-    margin: auto;
-    width: 75%;
-}
-
-.input-register{
-        margin-top: inherit;
-        margin-bottom: inherit;
-        padding: inherit;
-        width: inherit;
-        height: inherit;
-}
-
 }

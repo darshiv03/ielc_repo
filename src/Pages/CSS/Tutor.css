@@ -1,0 +1,55 @@
+.become-a-tutor-container{
+    margin-right: 24px;
+    margin-left: 24px;
+    width: calc(100vw - 48px);
+}
+
+@media only screen and (min-width: 768px) {
+ /* for desktop */
+
+.become-a-tutor-container{
+    margin-right: 24px;
+    margin-left: 24px;
+    width: calc(100vw - 48px);
+}
+
+.intro{
+    margin: auto;
+    width: 75%;
+}
+
+.form-1{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin: auto;
+    width: 75%;
+    justify-content: space-between;
+}
+
+.labelinput{
+    width: 40%;
+}
+
+.grade-form{
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    width: 75%;
+}
+
+.comments{
+    width: 75%;
+    margin: auto;
+}
+
+.submit-vol{
+    display: flex;
+    justify-content: center;
+}
+
+.gradeselect{
+    margin: auto;
+    width: 75%;
+}
+}
