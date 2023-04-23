@@ -17,6 +17,7 @@
     flex-direction: column;
     flex-wrap: wrap;
     width: 100vw;
+    align-content: center;
     
 }   
 
@@ -27,5 +28,9 @@
 
 .title p {
     color: #828282;
+
+}
+
+@media only screen and (min-width: 768px){
 
 }

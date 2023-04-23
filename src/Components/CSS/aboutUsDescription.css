@@ -50,3 +50,17 @@
   text-align: center;
 }
 }
+
+@media only screen and (min-width: 768px){
+  .description-content{
+    width: 90%;
+    margin-left: auto;
+    margin-right: ;
+  }
+  .p-one, .p-two {
+        font-size: 22px!important;
+        font-weight: 400!important;
+        text-align: center;
+        line-height: 32px!important;
+  }
+}

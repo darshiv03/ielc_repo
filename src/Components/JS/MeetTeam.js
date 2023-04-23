@@ -32,7 +32,18 @@ const data = [
         img: "/user.png",    
         name: "Jack rabbit",
         position: "Teacher"
+    },
+    {
+        img: "/user.png",    
+        name: "Jack rabbit",
+        position: "Teacher"
+    },
+    {
+        img: "/user.png",    
+        name: "Jack rabbit",
+        position: "Teacher"
     }
+    
 
 
 ]
@@ -42,7 +53,6 @@ export default function MeetTeam() {
         <div className="meet-team-body">
             < div className = "title">
                 <h2>Our Team</h2>
-                <p>Lorem Ipsum</p>
             </div>
             {data.map((person,index)=>{
                 return (<TeamTemplate img = {person.img} name={person.name} position={person.position} key={index}> </TeamTemplate>)
